@@ -23,22 +23,10 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-
-
     <script type="text/javascript">
-        
         var hotjson = [{"id":"4816","Name":"金旺大厦4楼工艺馆"},{"id":"196","Name":"泊爵广悦轩别墅"},{"id":"376","Name":"科城山庄A8栋"},{"id":"385","Name":"双汇国际"},{"id":"386","Name":"长青御府"}];
         $(function () {
-            //$(levejson).each(function(k,v){                
-            //    $(".fl_leve").append("<option value=\"" + v.Code + "\">" + v.Name + "</option>");
-            //});
-            //$(stylejson).each(function(sk,sv){                
-            //    $(".fl_style").append("<option value=\"" + sv.Code + "\">" + sv.Name + "</option>");
-            //});
-            //$(experiencejson).each(function(ek,ev){                
-            //    $(".fl_experience").append("<option value=\"" + ev.Code + "\">" + ev.Name + "</option>");
-            //});
-            $(hotjson).each(function(hk,hv){                
+            $(hotjson).each(function(hk,hv){
                 $(".fl_hot").append("<option value=\"" + hv.id + "\">" + hv.Name + "</option>");
             });
 
