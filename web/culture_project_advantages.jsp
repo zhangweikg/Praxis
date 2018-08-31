@@ -1,7 +1,4 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,7 +6,6 @@
 <meta name="keywords" content="项目优势" />
 <meta name="description" content="项目优势" />
 
-    
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>

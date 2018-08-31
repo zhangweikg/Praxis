@@ -6,7 +6,6 @@
 <meta name="keywords" content="晴坤装饰工艺专利,晴坤专利,晴坤技术,晴坤装修专利" />
 <meta name="description" content="晴坤装饰工艺专利,晴坤专利,晴坤技术,晴坤装修专利" />
 
-    
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>

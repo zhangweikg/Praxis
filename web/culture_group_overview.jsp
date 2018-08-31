@@ -1,7 +1,4 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,7 +6,6 @@
 <meta name="keywords" content="晴坤装饰企业概况" />
 <meta name="description" content="晴坤装饰企业概况" />
 
-    
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
@@ -30,7 +26,6 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-
 
 </head>
 <body>
