@@ -2390,7 +2390,7 @@ body {
                     width: 60px;
                     height: 35px;
                     border: none;
-                    /*background: #FF0000 url("../img/icon_18.png")!*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*! no-repeat center;*/
+                    background: #FF0000 url("../img/icon_18.png")/*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*/ no-repeat center;
                     margin-bottom: 5px;
                 }
 
@@ -2442,7 +2442,7 @@ body {
             width: 58px;
             height: 32px;
             border: none;
-            /*background: #FF0000 url("../img/icon_18.png")!*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*! no-repeat center;*/
+			background: #FF0000 url("../img/icon_18.png")/*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*/ no-repeat center;
         }
 
         .screen_column .wrap > form div.fr input[type="submit"] {
@@ -2450,7 +2450,7 @@ body {
             width: 58px;
             height: 32px;
             border: none;
-            /*background: #FF0000 url("../img/icon_18.png")!*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*! no-repeat center;*/
+			background: #FF0000 url("../img/icon_18.png")/*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*/ no-repeat center;
         }
 
 
@@ -8413,7 +8413,7 @@ body {
                     margin-left: 2px;
                     padding-left: 30px;
                     border: none;
-                    /*background: #E11129 url("../img/icon_18.png")!*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*! no-repeat 20px center;*/
+                    background: #E11129 url("../img/icon_18.png")/*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*/ no-repeat 20px center;
                     font-size: 14px;
                     color: #fff;
                 }
@@ -8444,18 +8444,18 @@ body {
         }
 
         .search-mian form > span input[type="submit"] {
-            /*float: left;
+            float: left;
             width: 40px;
             height: 40px;
             border: none;
-            background: #E11129 url(../images/../img/icon_18.png) no-repeat center;*/
+            background: #E11129 url(../img/icon_18.png) no-repeat center;
             float: left;
             width: 115px;
             height: 40px;
             margin-left: 2px;
             padding-left: 30px;
             border: none;
-            /*background: #E11129 url("../img/icon_18.png")!*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*! no-repeat 20px center;*/
+            background: #E11129 url("../img/icon_18.png")/*tpa=http://www.xydec.com.cn/images/../img/icon_18.png*/ no-repeat 20px center;
             font-size: 14px;
             color: #fff;
         }

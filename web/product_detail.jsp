@@ -1,3 +1,4 @@
+<%@ page import="com.software.domain.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>东方名都销售中心-广东星艺装饰集团股份有限公司</title>
@@ -225,11 +226,15 @@ var _hmt = _hmt || [];
 </div>
 
 
+<%
+    String path = request.getContextPath();
 
-    
-
-
-
+    Products product = (Products) request.getAttribute("product");
+    BuildingArea buildingArea = (BuildingArea) request.getAttribute("buildingArea");
+    BuildingStyle buildingStyle = (BuildingStyle) request.getAttribute("buildingStyle");
+    BuildingType buildingType = (BuildingType) request.getAttribute("buildingType");
+    ProductStage productStage = (ProductStage) request.getAttribute("productStage");
+%>
     <div class="article">
         <div class="sub-tit">
             <div class="wrap clearfix">
@@ -238,7 +243,7 @@ var _hmt = _hmt || [];
                     <font>&gt;</font>
                     <a href="product_center.jsp">产品中心</a>
                     <font>&gt;</font>
-                    <span style="color:red;">产品的具体名称</span>
+                    <span style="color:red;"><%=product.getProduct_name()%></span>
                 </div>
             </div>
         </div>
@@ -247,33 +252,33 @@ var _hmt = _hmt || [];
                 <div class="Boutique_01 clearfix">
                     <div class="fl">
                         <div class="a1">
-							<font size="5">东方名都销售中心</font></br>
+							<font size="5"><%=product.getProduct_name()%></font></br>
 							<font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简介：</font>
-							<font size="3">东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心东方名都销售中心。</font>
+							<font size="3"><%=product.getProduct_info()%></font>
                         </div>
                         <div class="a2">
                             <p class="clearfix">
                                 <span>建筑风格</span>
-                                <font>现代简约</font>
+                                <font><%=buildingStyle.getProduct_build_style()%></font>
                                 <span>产品户型</span>
-                                <font>办公空间</font>
+                                <font><%=buildingType.getProduct_house_type()%></font>
                             </p>
                             <p class="clearfix">
                                 <span>在建阶段</span>
-                                <font>水电阶段</font>
+                                <font><%=productStage.getProduct_stage()%></font>
                                 <span>建筑面积</span>
-                                <font>301平米以上	</font>
+                                <font><%=buildingArea.getProduct_area()%></font>
                             </p>
                             <p class="clearfix">
                                 <span>产品城市</span>
-                                <font>北京</font>
-                                <span>更新时间</span>
-                                <font>2017/2/13 14:17:00</font>
+                                <font><%=product.getProduct_city()%></font>
+                                <span>发布时间</span>
+                                <font><%=product.getProduct_publish_time()%></font>
                             </p>
                         </div>
                     </div>
                     <div class="fr">
-						<img src="img/20180827205516.png">
+						<img width="275px" height="235px" src="img/<%=product.getProduct_picture_path()%>">
                     </div>
                 </div>
             </div>
@@ -396,18 +401,6 @@ var _hmt = _hmt || [];
         </div>
     </div>
 </div>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?bc4d0695158d3e46228dd96a3b56fee4";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-    <script type="text/javascript">
-        setNav(4);
-    </script>
 </body>
 </html>
 

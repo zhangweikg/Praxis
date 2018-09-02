@@ -434,7 +434,7 @@ var _hmt = _hmt || [];
                 <ul>
                     <li class="clearfix">
                         <span>
-                            <img alt="" class="lazyload" data-original="images/icon_img/15.png" src="icon_img/15.png" tppabs="http://www.xydec.com.cn/images/icon_img/15.png" />阶段</span>
+                            <img alt="" class="lazyload" data-original="images/icon_img/15.png" src="img/icon_15.png" tppabs="http://www.xydec.com.cn/images/icon_img/15.png" />阶段</span>
                         <a id="a_stage" href="javascript:;" onclick="selectCase('stage',-1)" class="fsx">全部</a>
                         
                         <a id="a_stage_1701" onclick="selectCase('stage',1701)" href="javascript:;">开工大吉</a>
@@ -458,7 +458,7 @@ var _hmt = _hmt || [];
                     </li>
                     <li class="clearfix">
                         <span>
-                            <img alt="" class="lazyload" data-original="images/icon_img/16.png" src="icon_img/16.png" tppabs="http://www.xydec.com.cn/images/icon_img/16.png" />面积</span>
+                            <img alt="" class="lazyload" data-original="images/icon_img/16.png" src="img/icon_16.png" tppabs="http://www.xydec.com.cn/images/icon_img/16.png" />面积</span>
                         <a id="a_size" onclick="selectCase('size',-1)" class="fsx">全部</a>
                         
                         <a id="a_size_1601" onclick="selectCase('size',1601)" href="javascript:;">100平米以下</a>
@@ -474,7 +474,7 @@ var _hmt = _hmt || [];
                     
                     <li class="clearfix">
                         <span>
-                            <img alt="" class="lazyload" data-original="images/icon_img/17.png" src="icon_img/17.png" tppabs="http://www.xydec.com.cn/images/icon_img/17.png" />户型</span>
+                            <img alt="" class="lazyload" data-original="images/icon_img/17.png" src="img/icon_17.png" tppabs="http://www.xydec.com.cn/images/icon_img/17.png" />户型</span>
                         <a id="a_layout" onclick="selectCase('layout',-1)" class="fsx">全部</a>
                         
                         <a id="a_layout_1401" onclick="selectCase('layout',1401)" href="javascript:;">二居</a>
