@@ -50,18 +50,18 @@ var _hmt = _hmt || [];
                                 <ul>
                                     
                                     <li>
-                                        <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601" >企业概况</a>
+                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_brand_introduction.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602" >品牌介绍</a>
+                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603" >项目优势</a>
+                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
-                                   
+                                    
                                     
                                 </ul>
                             </div>
@@ -97,8 +97,8 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                    <li>
-                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                   <li>
+                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -107,7 +107,7 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
@@ -115,7 +115,7 @@ var _hmt = _hmt || [];
                                     </li>
                                     
                                     <li>
-                                        <a href="process_patent.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -125,7 +125,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -138,11 +138,11 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="service_guarantee.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
@@ -189,146 +189,12 @@ var _hmt = _hmt || [];
                     <font>&gt;</font>
                     <a href="service_process.jsp">无忧服务</a>
                     <font>&gt;</font>
-					<span style="color:red;">服务保障</span></a>
+					<span style="color:red;">服务流程</span></a>
                 </div>
             </div>
         </div>
-        <div class="Marketing-details">
-            <div class="wrap">
-                <div class="tit">
-                    <h3>服务保障</h3>
-                    
-                </div>
-                <div class="mian">
-                    <p class="MsoNormal">
-	<span style="color:#666666;font-family:'Microsoft YaHei';font-size:24px;line-height:1.5;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 工程层层监管，给你放心的家</strong></span> 
-</p>
-<img src="img/20170421110647_1585.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421110647_1585.jpg" alt="" title="" height="298" align="right" width="400" /> 
-<p class="MsoNormal" style="text-align:center;">
-	<br />
-</p>
-<p>
-	<span style="color:#666666;font-family:'Microsoft YaHei';font-size:16px;line-height:1.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:16px;line-height:1.5;"><span style="line-height:2;">①体贴入微星管家，终身尊享星品质！</span></span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;②总经理挂帅团队跟进；</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;③三个阶段贴心服务全面跟进装修进程；</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;④节点通报满足客户需求；</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⑤终身服务，后顾无忧。</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;"></span> 
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;"></span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:18px;color:#64451D;line-height:2;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size:24px;">晴坤装饰郑重承诺：</span></strong></span> 
-</p>
-<p class="MsoNormal">
-	<span style="line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="line-height:1;">&nbsp;</span></span><span style="font-size:14px;font-family:'Microsoft YaHei';"><span style="line-height:2;"><span style="line-height:1;">&nbsp; &nbsp;</span><span style="font-size:18px;line-height:1;"> <span style="color:#64451D;font-size:18px;">工程质量不合格，</span></span></span></span> 
-</p>
-<p class="MsoNormal">
-	<span style="color:#666666;line-height:2;font-family:'Microsoft YaHei';font-size:18px;"><span style="line-height:1;color:#666666;font-size:18px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span><span style="line-height:2;font-family:'Microsoft YaHei';font-size:14px;"><span style="font-size:24px;"><span style="line-height:1;color:#64451D;font-size:18px;">砸掉免费重做！</span><strong> &nbsp; &nbsp;&nbsp;</strong></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="font-family:'Microsoft YaHei';font-size:14px;color:#666666;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-family:'Microsoft YaHei';font-size:14px;color:#666666;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span> 
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;"><img src="img/20170421110659_1585.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421110659_1585.jpg" alt="" /></span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;line-height:3;"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></span><span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;line-height:3;"><strong>真诚真心服务</strong></span><span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;line-height:3;"><strong>&nbsp;&nbsp;</strong></span><span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;line-height:3;"><strong>保障你的生活</strong></span><span style="color:#64451D;font-family:'Microsoft YaHei';font-size:18px;line-height:1.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="color:#64451D;font-family:'Microsoft YaHei';font-size:18px;line-height:1.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> 
-</p>
-<img src="img/20170421110716_6272.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421110716_6272.jpg" alt="" title="" height="316" align="right" width="400" /> 
-<p>
-	<span style="color:#64451D;font-family:'Microsoft YaHei';font-size:18px;line-height:1.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="line-height:2;">晴坤装饰</span><span style="font-size:24px;"></span><span style="font-size:24px;line-height:2;"><strong>五年质保起</strong></span></span><span style="color:#64451D;font-family:'Microsoft YaHei';font-size:18px;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp;</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:32px;font-family:'Microsoft YaHei';color:#666666;line-height:1.5;"><span style="color:#64451D;"><span style="line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="font-size:18px;line-height:27px;"><span style="line-height:2;">一次相遇，</span><span style="font-size:24px;line-height:2;"><strong>五年</strong></span><span style="font-size:24px;line-height:2;"><strong>关怀</strong></span><span style="line-height:2;">——终身服务 &nbsp;</span></span><span style="line-height:2;">&nbsp;</span></span><span style="color:#64451D;line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:18px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;"><span style="line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="line-height:1.5;"><span style="font-size:16px;"><span style="line-height:2;">两小时响应机制，隐蔽工程保修五年、</span></span></span></span> 
-</p>
-<p class="MsoNormal">
-	<span style="color:#666666;font-family:'Microsoft YaHei';font-size:18px;"><span style="font-size:16px;"><span style="line-height:2;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="line-height:2;">其它项目保修两年、终身维护无忧</span></span></span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:16px;line-height:2;">。</span> 
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;">&nbsp;</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;">&nbsp;</span> 
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;"><img src="img/20170421110729_8147.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421110729_8147.jpg" alt="" /></span> 
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<img src="img/20170210154111_4159.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170210/img/20170210154111_4159.jpg" alt="" width="400" height="403" title="" align="right" /> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:18px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color:#64451D;"><strong>&nbsp;&nbsp;<span style="color:#666666;">&nbsp;&nbsp;&nbsp;</span></strong></span></span><span style="font-family:'Microsoft YaHei';color:#666666;line-height:2.5;"><span style="color:#64451D;"><span style="color:#666666;"><span style="color:#64451D;line-height:1;font-size:18px;"><strong>全国服务热线：</strong></span></span></span></span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;"><span style="line-height:1;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color:#64451D;"><strong><span style="color:#666666;"><span style="line-height:1;">&nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></span></span><span style="line-height:1;font-size:32px;">&nbsp;</span><span style="line-height:1;font-size:24px;font-family:'Microsoft YaHei';color:#666666;">4006 885085 /&nbsp;</span><span style="line-height:1;font-size:24px;font-family:'Microsoft YaHei';color:#666666;">8008 303295</span><span style="line-height:1;font-size:24px;">&nbsp;</span><strong><span style="color:#666666;font-size:32px;">&nbsp;</span></strong><strong><span style="font-size:32px;">&nbsp;</span></strong> 
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<br />
-</p>
-<p class="MsoNormal">
-	<span style="font-size:18px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="color:#64451D;">&nbsp; &nbsp; &nbsp;<strong>晴坤装饰至尊</strong></span></span><span style="font-size:18px;font-family:'Microsoft YaHei';color:#64451D;line-height:2.5;"><strong>VIP</strong></span><span style="font-size:18px;font-family:'Microsoft YaHei';color:#64451D;line-height:2.5;"><strong>卡服务：</strong></span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;水电隐蔽工程保修五</span><span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">年，其它项目保修两年。</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;在全国将“家居装修施工工艺”及“验收标准”</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;列入合同书的家装企业，让客户明明白白消费，</span> 
-</p>
-<p class="MsoNormal">
-	<span style="font-size:16px;font-family:'Microsoft YaHei';color:#666666;line-height:2.5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;开开心心装修。</span> 
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-                </div>
-            </div>
-        </div>
-    </div>
+       <%String service_guarantee= (String) (String)request.getAttribute("service_guarantee"); %>
+    <%=service_guarantee%>
     
 <div class="roll-nav">
     <ul>

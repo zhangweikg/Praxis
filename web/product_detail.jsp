@@ -104,20 +104,20 @@ var _hmt = _hmt || [];
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                        <div class="Drop_Down">
+                       <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601" >企业概况</a>
+                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_brand_introduction.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602" >品牌介绍</a>
+                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603" >项目优势</a>
+                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
                                     
@@ -156,8 +156,8 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                    <li>
-                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                   <li>
+                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -166,7 +166,7 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
@@ -174,7 +174,7 @@ var _hmt = _hmt || [];
                                     </li>
                                     
                                     <li>
-                                        <a href="process_patent.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -184,7 +184,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -197,11 +197,11 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="service_guarantee.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
