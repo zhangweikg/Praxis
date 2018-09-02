@@ -51,16 +51,17 @@ var _hmt = _hmt || [];
                                 <ul>
                                     
                                     <li>
-                                        <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601" >企业概况</a>
+                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_brand_introduction.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602" >品牌介绍</a>
+                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603" >项目优势</a>
+                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
+                                    
                                     
                                     
                                 </ul>
@@ -98,7 +99,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -107,7 +108,7 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
@@ -115,7 +116,7 @@ var _hmt = _hmt || [];
                                     </li>
                                     
                                     <li>
-                                        <a href="process_patent.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -125,24 +126,24 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
+                                    
                                     <li>
                                         <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
                                     </li>
                                     
                                     
-                                   
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="service_guarantee.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
@@ -193,54 +194,8 @@ var _hmt = _hmt || [];
                 </div>
             </div>
         </div>
-        <div class="Marketing-details">
-            <div class="wrap">
-                <div class="tit">
-                    <h3>工艺专利</h3>
-                    
-                </div>
-                <div class="mian">
-                    <p style="text-align:center;">
-	<span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;"><strong>数十项工艺专利，为爱家保驾护航</strong></span> 
-</p>
-<p style="text-align:center;">
-	<span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;"><strong><br />
-</strong></span> 
-</p>
-<p style="text-align:center;">
-	<img src="img/20170421100808_6585.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421100808_6585.jpg" alt="晴坤装饰" width="800" height="461" title="晴坤装饰" align="" /> 
-</p>
-<p style="text-align:center;">
-	<br />
-</p>
-<p style="text-align:left;">
-	<span style="color:#666666;font-family:'Microsoft YaHei';font-size:16px;line-height:1.5;">2017年，晴坤集团又取得了“窗台大理石防水结构”“一种打磨尺”“天花吊顶木框架连接加固件”等多项实用新型和外观设计发明专利，并获得了由国家知识产权局颁发的专利证书。</span> 
-</p>
-<p style="text-align:left;">
-	<br />
-</p>
-<p style="text-align:center;">
-	<img src="img/20171113161734_6715.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20171113/img/20171113161734_6715.jpg" alt="晴坤装饰" width="800" height="550" title="晴坤装饰" align="" /> 
-</p>
-<p style="text-align:left;">
-	<br />
-</p>
-<p style="text-align:left;">
-	<span style="color:#666666;font-family:'Microsoft YaHei';font-size:16px;line-height:1.5;">截至目前，晴坤装饰已研发出“大理石门槛结构”“波纹管连接件”“开关插座底盒连接件”“一种暗线开关插座底盒结构”等几十项国家实用新型专利和外观设计专利。一直以来，公司研发部门高度重视装修和材料研发工作，引导和鼓励优秀晴坤人积极参与装饰技术革新，在装饰装修的安全施工、质量指标、外观设计、绿色环保等方面力求突破，研发出新型工艺和材料，大力提升集团创新创造能力。发明专利，有利于保护公司的知识产权和技术优势，激发创新动力，进一步提升集团的核心竞争力。</span> 
-</p>
-<p style="text-align:left;">
-	<br />
-</p>
-<p style="text-align:center;">
-	<img src="img/20171113161818_8121.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20171113/img/20171113161818_8121.jpg" alt="晴坤装饰" width="800" height="597" title="晴坤装饰" align="" /> 
-</p>
-<p style="text-align:center;">
-	<img src="img/20170421100818_9710.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421100818_9710.jpg" alt="晴坤装饰" width="1000" height="562" title="晴坤装饰" align="" /> 
-</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <%String process_patent = (String) (String)request.getAttribute("process_patent"); %>
+    <%=process_patent%>
     
 <div class="roll-nav">
     <ul>

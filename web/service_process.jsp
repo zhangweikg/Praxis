@@ -49,15 +49,15 @@ var _hmt = _hmt || [];
                                 <ul>
                                     
                                     <li>
-                                        <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601" >企业概况</a>
+                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_brand_introduction.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602" >品牌介绍</a>
+                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603" >项目优势</a>
+                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
                                     
@@ -96,18 +96,17 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                    <li>
-                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                   <li>
+                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     
-
                                     
                                     <li>
-                                        <a href="material_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
@@ -115,7 +114,7 @@ var _hmt = _hmt || [];
                                     </li>
                                     
                                     <li>
-                                        <a href="process_patent.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -125,7 +124,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -138,11 +137,11 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="service_guarantee.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
@@ -189,108 +188,13 @@ var _hmt = _hmt || [];
                     <font>&gt;</font>
                     <a href="service_process.jsp">无忧服务</a>
                     <font>&gt;</font>
-					<span style="color:red;">服务流程</span></a>
+					<span style="color:red;">服务保障</span></a>
                 </div>
             </div>
         </div>
-        <div class="Marketing-details">
-            <div class="wrap">
-                <div class="tit">
-                    <h3>服务流程</h3>
-                    
-                </div>
-                <div class="mian">
-                    <p style="text-align:center;">
-	<strong><span style="font-size:24px;font-family:'Microsoft YaHei';color:#666666;">设计流程</span></strong> 
-</p>
-<p style="text-align:center;">
-	<span style="font-size:24px;color:#666666;font-family:&quot;line-height:3;"><strong><br />
-</strong></span> 
-</p>
-<p>
-	<img src="img/20170701180822_4991.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170701/img/20170701180822_4991.jpg" alt="" title="" width="621" height="225" align="" />&nbsp;&nbsp;<img src="img/20180111114533_6114.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20180111/img/20180111114533_6114.jpg" alt="" width="481" height="225" title="" align="" />
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<img src="img/20170421111533_0491.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421111533_0491.jpg" alt="" /><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong><strong>&nbsp; &nbsp;&nbsp;</strong> 
-</p>
-<img src="img/20170421111558_5335.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421111558_5335.jpg" alt="" title="" width="300" height="416" align="right" /><strong> 
-<p style="text-align:center;">
-	<strong><strong><span style="line-height:3;"><span style="font-size:24px;color:#666666;font-family:&quot;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family:Microsoft YaHei;">施工流程</span></span></span></strong></strong> 
-</p>
-</strong> 
-<p>
-	<img src="img/20170421111548_5960.png" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421111548_5960.png" alt="" title="" width="693" height="230" align="" /> 
-</p>
-<p>
-	<br />
-</p>
-<div>
-	&nbsp;<br />
-</div>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<img src="img/20170421111608_5960.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421111608_5960.jpg" alt="" /> 
-</p>
-<p style="text-align:center;">
-	<strong><span style="line-height:3;font-size:24px;color:#666666;font-family:'Microsoft YaHei';">严格的施工监管</span></strong> 
-</p>
-<p style="text-align:center;">
-	<br />
-</p>
-<p style="text-align:center;">
-	<span style="font-size:24px;font-family:&quot;color:#666666;line-height:2.5;"><strong><img src="img/20170421111626_1428.jpg" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421111626_1428.jpg" alt="" title="" width="462" height="320" align="" />&nbsp;<img src="img/20170421111736_0178.png" tppabs="http://www.xydec.com.cn/uploadfiles/image/20170421/img/20170421111736_0178.png" alt="" title="" width="639" height="320" align="" /></strong></span> 
-</p>
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-<div class="roll-nav">
-    <ul>
-        <li class="a1">
-            <div class="_box">
-                <i></i>
-                <span>二维码</span>
-            </div>
-            <div class="_sig">
-                <span>
-                    <img alt="" src="img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
-                </span>
-            </div>
-        </li>
-        <li class="a4">
-            <div class="_box">
-                <a href="javascript:scroll(0,0)"><i></i></a>
-                <a href="javascript:scroll(0,0)"><span>返回顶部</span></a>
-            </div>
-        </li>
-        
-    </ul>
-</div>
-
+       
+ <%String service_process = (String) (String)request.getAttribute("service_process"); %>
+    <%=service_process%>
     
 
 <div class="footer">
