@@ -31,13 +31,13 @@
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="index.jsp">
+                <a href="../../index.jsp">
                     <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
 
             <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="index.jsp">首页</a></li>
+                    <li><a href="../../index.jsp">首页</a></li>
                     <li>
                         <a href="culture_group_overview.jsp" >走进晴坤</a>
                         <div class="Drop_Down">
@@ -145,7 +145,7 @@
 			<div class="sub-tit">
 				<div class="wrap clearfix">
 					<div class="fl">
-					<a href="index.jsp" >首页</a>
+					<a href="../../index.jsp" >首页</a>
 					<font>&gt;</font>
 					<span style="color: red;">产品中心</span>
 					</div>

@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>企业概况-广东晴坤装饰集团股份有限公司</title>
-<meta name="keywords" content="晴坤装饰企业概况" />
-<meta name="description" content="晴坤装饰企业概况" />
+    <title>项目优势-广东晴坤装饰集团股份有限公司</title>
+<meta name="keywords" content="项目优势" />
+<meta name="description" content="项目优势" />
 
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
@@ -27,6 +27,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 
+
 </head>
 <body>
     
@@ -35,18 +36,18 @@ var _hmt = _hmt || [];
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
+                <a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
                     <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
 
             <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
+                    <li><a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
                     
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                        <div class="Drop_Down">
+                       <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
@@ -70,7 +71,7 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                    <li>
+                   <li>
                         <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
                         
                         <div class="Drop_Down">
@@ -98,7 +99,7 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                   <li>
+                  <li>
                         <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
@@ -160,7 +161,7 @@ var _hmt = _hmt || [];
 
 </div>
 
-   
+    
     <div class="article">
         <div class="sub-banner">
             <div class="bd">
@@ -186,18 +187,18 @@ var _hmt = _hmt || [];
         <div class="sub-tit">
             <div class="wrap clearfix">
                 <div class="fl">
-                    <a href="index.jsp">首页</a>
+                    <a href="../../index.jsp">首页</a>
                     <font>&gt;</font>
                     <a href="culture_group_overview.jsp">走进晴坤</a>
                     <font>&gt;</font>
-                    <span style="color: red;">企业概况</span>
-                    
+                    <span style="color: red;">项目优势</span>
                 </div>
             </div>
         </div>
-  
-     <%String group_overview = (String) (String)request.getAttribute("group_overview"); %>
-    <%=group_overview%>
+       
+        <%String project_advantages = (String) (String)request.getAttribute("project_advantages"); %>
+    <%=project_advantages%>
+    
 <div class="roll-nav">
     <ul>
         <li class="a1">

@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>项目优势-广东晴坤装饰集团股份有限公司</title>
-<meta name="keywords" content="项目优势" />
-<meta name="description" content="项目优势" />
+    <title>服务保障-广东晴坤装饰集团股份有限公司</title>
+<meta name="keywords" content="服务保障" />
+<meta name="description" content="服务保障" />
 
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
@@ -16,7 +16,6 @@
 <script type="text/javascript" src="js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
 <script type="text/javascript" src="js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
 <script type="text/javascript" src="js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/10068539.js" tppabs="http://lead.soperson.com/20002178/js/10068539.js"></script>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -36,18 +35,17 @@ var _hmt = _hmt || [];
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
+                <a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
                     <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
-
             <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
+                    <li><a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
                     
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                       <div class="Drop_Down">
+                        <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
@@ -59,7 +57,7 @@ var _hmt = _hmt || [];
                                         <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
-                                      <li>
+                                    <li>
                                         <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
@@ -71,7 +69,7 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                   <li>
+                    <li>
                         <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
                         
                         <div class="Drop_Down">
@@ -99,7 +97,7 @@ var _hmt = _hmt || [];
                         
                     </li>
                     
-                  <li>
+                   <li>
                         <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
@@ -165,20 +163,20 @@ var _hmt = _hmt || [];
     <div class="article">
         <div class="sub-banner">
             <div class="bd">
-                <ul>
+                <ul style="position: relative; width: 1366px; height: 400px;">
                     
-                    <li style="background-image: url(img/201704071409483809340.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
+                    <li style="background-image: url(&quot;img/201704071409483809340.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
                     
-                    <li style="background-image: url(img/201704071410248183840.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
+                    <li style="background-image: url(&quot;img/201704071410248183840.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: list-item;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
                     
-                    <li style="background-image: url(img/201704071410434744838.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
+                    <li style="background-image: url(&quot;img/201704071410434744838.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
                     
-                    <li style="background-image: url(img/201704071527517088423.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
+                    <li style="background-image: url(&quot;img/201704071527517088423.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
                     
                 </ul>
             </div>
             <div class="hd">
-                <ul></ul>
+                <ul><li class="">1</li><li class="on">2</li><li class="">3</li><li class="">4</li></ul>
             </div>
         </div>
         <script type="text/javascript">
@@ -187,17 +185,16 @@ var _hmt = _hmt || [];
         <div class="sub-tit">
             <div class="wrap clearfix">
                 <div class="fl">
-                    <a href="index.jsp">首页</a>
+                    <a href="../../index.jsp">首页</a>
                     <font>&gt;</font>
-                    <a href="culture_group_overview.jsp">走进晴坤</a>
+                    <a href="service_process.jsp">无忧服务</a>
                     <font>&gt;</font>
-                    <span style="color: red;">项目优势</span>
+					<span style="color:red;">服务流程</span></a>
                 </div>
             </div>
         </div>
-       
-        <%String project_advantages = (String) (String)request.getAttribute("project_advantages"); %>
-    <%=project_advantages%>
+       <%String service_guarantee= (String) (String)request.getAttribute("service_guarantee"); %>
+    <%=service_guarantee%>
     
 <div class="roll-nav">
     <ul>
@@ -332,7 +329,7 @@ var _hmt = _hmt || [];
 </script>
     
     <script type="text/javascript">
-        setNav(1);
+        setNav(6);
     </script>
     
 </body>

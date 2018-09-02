@@ -5,10 +5,10 @@
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
- <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="css/style.css"/>       
-        <link href="assets/css/codemirror.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/ace.min.css" />
+ <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link href="../assets/css/codemirror.css" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/ace.min.css" />
         <link rel="stylesheet" href="font/css/font-awesome.min.css" />
         <!--[if lte IE 8]>
 		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />

@@ -264,7 +264,7 @@ var _hmt = _hmt || [];
 
              <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
+                    <li><a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
                     
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
@@ -410,7 +410,7 @@ var _hmt = _hmt || [];
 			<div class="sub-tit">
             <div class="wrap clearfix">
                 <div class="fl">
-                    <a href="index.jsp">首页</a>
+                    <a href="../../index.jsp">首页</a>
                     <font>&gt;</font>
                     <a href="material_overview.jsp">品质工程</a>
                     <font>&gt;</font>

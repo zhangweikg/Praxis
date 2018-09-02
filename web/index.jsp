@@ -125,18 +125,18 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
+                        <a href="foreground/jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101" >企业新闻</a>
+                                        <a href="foreground/jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101" >企业新闻</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="notice_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" >最新公告</a>
+                                        <a href="foreground/jsps/notice_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" >最新公告</a>
                                     </li>
                                     
                                 </ul>
@@ -166,7 +166,7 @@ var _hmt = _hmt || [];
                                     </li>
                                     
                                     <li>
-                                        <a href="building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx" >在建工地</a>
+                                        <a href="foreground/jsps/building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx" >在建工地</a>
                                     </li>
                                     
                                     <li>
@@ -187,7 +187,7 @@ var _hmt = _hmt || [];
                                 <ul>
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
+                                        <a href="foreground/jsps/service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
                                     </li>
                                     
                                     
@@ -262,7 +262,7 @@ var _hmt = _hmt || [];
                 <ul class="clearfix">
                     
                     <li class="a1">
-                        <a target="_blank" href="building.jsp" tppabs="http://www.xydec.com.cn/BranchSearch.aspx">
+                        <a target="_blank" href="foreground/jsps/building.jsp" tppabs="http://www.xydec.com.cn/BranchSearch.aspx">
                             <img alt="在建工地" src="img/201702081629373825889.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702081629373825889.png" />
                             <span>在建工地</span>
                             <font>遍布全国20多个省、市、自治区。晴坤就在您身边。</font>
@@ -270,7 +270,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li class="a2">
-                        <a target="_blank" href="process_patent.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0202">
+                        <a target="_blank" href="foreground/jsps/process_patent.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0202">
                             <img alt="工艺专利" src="img/201702081630044132997.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702081630044132997.png" />
                             <span>工艺专利</span>
                             <font>载誉亚太，实力见证。
@@ -281,7 +281,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li class="a3">
-                        <a target="_blank" href="product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">
+                        <a target="_blank" href="foreground/jsps/product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">
                             <img alt="产品中心" src="img/201702081630180695158.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702081630180695158.png" />
                             <span>产品中心</span>
                             <font>量身定制整体家装，软硬兼施全案设计，打造不可复制可收藏空间。</font>
@@ -289,7 +289,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li class="a4">
-                        <a target="_blank" href="process_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0401">
+                        <a target="_blank" href="foreground/jsps/process_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0401">
                             <img alt="工艺概述" src="img/201702081630334136004.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702081630334136004.png" />
                             <span>工艺概述</span>
                             <font>六大施工标准、八级质量管理体系、三百六十道施工工序。</font>
@@ -297,7 +297,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li class="a5">
-                        <a target="_blank" href="material_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402">
+                        <a target="_blank" href="foreground/jsps/material_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402">
                             <img alt="材料概述" src="img/201701112020551802441.png" tppabs="http://www.xydec.com.cn/upload/1701/img/201701112020551802441.png" />
                             <span>材料概述</span>
                             <font>厂家直供，专业定制。行业有影响力的品牌为您提供优质的产品。
@@ -306,7 +306,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li class="a6">
-                        <a target="_blank" href="service_guarantee.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706">
+                        <a target="_blank" href="foreground/jsps/service_guarantee.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706">
                             <img alt="服务保障 " src="img/201702091529054342760.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702091529054342760.png" />
                             <span>服务保障 </span>
                             <font>隐蔽工程五年质保，其他项目两年质保，终身维护。</font>
@@ -354,8 +354,8 @@ var _hmt = _hmt || [];
                     </div>
                     <div class="bd">
                         <div class="box">
-                            <div id="case_list" class="gg clearfix"><div class="a1"><a target="_blank" href="product_detail.jsp" style="background-image:url(img/201711291449194738208.jpg);"><img alt="" class="lazyload" data-original="img/201711291449194738208.jpg"><span><font>东方名都销售中心【东方名都销售中心】</font><font>办公空间  |  现代简约  |  301平米以上	 </font></span></a></div><div class="a2"><a target="_blank" href="Case.aspx?case_id=17440"><img alt="" class="lazyload" data-original="img/201801111459325036257.jpg" src="img/201801111459325036257.jpg"><span><font>科城山庄现代简约风格别墅【科城山庄】</font><font>别墅  |  现代简约  |  201-300平米 </font></span></a></div><div class="a3"><a target="_blank" href="Case.aspx?case_id=17803"><img alt="" class="lazyload" data-original="img/201803071636487048574.jpg" src="img/201803071636487048574.jpg"><span><font>《精·简·美》【安徽·黄山】</font><font>四居  |  现代简约  |  101-200平米 </font></span></a></div><div class="a4"><a target="_blank" href="Case.aspx?case_id=17830"><img alt="" class="lazyload" data-original="img/201803141016094307159.jpg" src="img/201803141016094307159.jpg"><span><font>富丽华【富丽华】</font><font>四居  |  现代简约  |  101-200平米 </font></span></a></div><div class="a5" style="background-image:url(img/201803211158313637246.jpg);"><a target="_blank" href="Case.aspx?case_id=17878"><img alt="" class="lazyload" data-original="img/201803211158313637246.jpg"><span><font>城市·沐光【香溢紫郡】</font><font>三居  |  现代简约  |  101-200平米 </font></span></a></div><div class="a6 aa"><a target="_blank" href="http://www.xydec.com.cn/CaseList.aspx"><img class="lazyload" data-original="img/201710261532497504702.jpg" src="img/201710261532497504702.jpg"><p><font>产品中心<i>万套原创案例</i></font><em></em></p></a></div><div class="a7 aa"><a target="_blank" href="http://www.xydec.com.cn/CaseList.aspx?spacecode=1501"><img class="lazyload" data-original="img/201612261712276235312.jpg" src="img/201612261712276235312.jpg"><p><font>“晴坤杯”案例<i></i></font><em></em></p></a></div></div>
-                            <div class="kk"><a target="_blank" href="product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">查看更多</a></div>
+                            <div id="case_list" class="gg clearfix"><div class="a1"><a target="_blank" href="foreground/jsps/product_detail.jsp" style="background-image:url(img/201711291449194738208.jpg);"><img alt="" class="lazyload" data-original="img/201711291449194738208.jpg"><span><font>东方名都销售中心【东方名都销售中心】</font><font>办公空间  |  现代简约  |  301平米以上	 </font></span></a></div><div class="a2"><a target="_blank" href="Case.aspx?case_id=17440"><img alt="" class="lazyload" data-original="img/201801111459325036257.jpg" src="img/201801111459325036257.jpg"><span><font>科城山庄现代简约风格别墅【科城山庄】</font><font>别墅  |  现代简约  |  201-300平米 </font></span></a></div><div class="a3"><a target="_blank" href="Case.aspx?case_id=17803"><img alt="" class="lazyload" data-original="img/201803071636487048574.jpg" src="img/201803071636487048574.jpg"><span><font>《精·简·美》【安徽·黄山】</font><font>四居  |  现代简约  |  101-200平米 </font></span></a></div><div class="a4"><a target="_blank" href="Case.aspx?case_id=17830"><img alt="" class="lazyload" data-original="img/201803141016094307159.jpg" src="img/201803141016094307159.jpg"><span><font>富丽华【富丽华】</font><font>四居  |  现代简约  |  101-200平米 </font></span></a></div><div class="a5" style="background-image:url(img/201803211158313637246.jpg);"><a target="_blank" href="Case.aspx?case_id=17878"><img alt="" class="lazyload" data-original="img/201803211158313637246.jpg"><span><font>城市·沐光【香溢紫郡】</font><font>三居  |  现代简约  |  101-200平米 </font></span></a></div><div class="a6 aa"><a target="_blank" href="http://www.xydec.com.cn/CaseList.aspx"><img class="lazyload" data-original="img/201710261532497504702.jpg" src="img/201710261532497504702.jpg"><p><font>产品中心<i>万套原创案例</i></font><em></em></p></a></div><div class="a7 aa"><a target="_blank" href="http://www.xydec.com.cn/CaseList.aspx?spacecode=1501"><img class="lazyload" data-original="img/201612261712276235312.jpg" src="img/201612261712276235312.jpg"><p><font>“晴坤杯”案例<i></i></font><em></em></p></a></div></div>
+                            <div class="kk"><a target="_blank" href="foreground/jsps/product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">查看更多</a></div>
                         </div>
                     </div>
                 </div>
@@ -414,7 +414,7 @@ var _hmt = _hmt || [];
                         </li>
                         
                         <li>
-                            <a target="_blank" href="building_detail.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx?buliding=金色时代">
+                            <a target="_blank" href="foreground/jsps/building_detail.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx?buliding=金色时代">
                                 <div class="a1">
                                     <h4>
                                         
@@ -587,7 +587,7 @@ var _hmt = _hmt || [];
                     </ul>
                     <a class="prev" href="javascript:void(0)"></a>
                     <a class="next" href="javascript:void(0)"></a>
-                    <div class="kk"><a target="_blank" href="building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx">查看更多</a></div>
+                    <div class="kk"><a target="_blank" href="foreground/jsps/building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx">查看更多</a></div>
                 </div>
                 <script type="text/javascript">
                     jQuery("http://www.xydec.com.cn/.index_03 .mian").slide({ mainCell: ".bd_i3", autoPage: true, effect: "left", vis: 4, scroll: 2 });
@@ -663,7 +663,7 @@ var _hmt = _hmt || [];
                         </div>
                         
                     </div>
-                    <div class="kk"><a target="_blank" href="process_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0401">查看更多</a></div>
+                    <div class="kk"><a target="_blank" href="foreground/jsps/process_overview.jsp" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0401">查看更多</a></div>
                 </div>
             </div>
         </div>
@@ -801,7 +801,7 @@ var _hmt = _hmt || [];
                             </ul>
                         </div>
                     </div>
-                    <div class="kk news_0606"><a target="_blank" class="getnews_a" href="news_center.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0606">查看更多</a></div>
+                    <div class="kk news_0606"><a target="_blank" class="getnews_a" href="foreground/jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0606">查看更多</a></div>
                     
                     <div class="bd news_0802 clearfix" style="display: none;">
                         <div class="fl">
@@ -922,7 +922,7 @@ var _hmt = _hmt || [];
                             </ul>
                         </div>
                     </div>
-                    <div class="kk news_0802" style="display: none;"><a target="_blank" class="getnews_a" href="notice_center.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0802">查看更多</a></div>
+                    <div class="kk news_0802" style="display: none;"><a target="_blank" class="getnews_a" href="foreground/jsps/notice_center.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0802">查看更多</a></div>
                     
                 </div>
             </div>
@@ -931,7 +931,7 @@ var _hmt = _hmt || [];
             <div class="wrap">
                 <div class="advert">
                     
-                    <a target="_blank" href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">
+                    <a target="_blank" href="foreground/jsps/service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">
                         <img alt="" class="lazyload" data-original="upload/ad/1703/img/201703291705590375714.jpg" src="img/201703291705590375714.jpg" tppabs="http://www.xydec.com.cn/upload/ad/1703/img/201703291705590375714.jpg" />
                     </a>
                     
@@ -979,9 +979,9 @@ var _hmt = _hmt || [];
                     <dl class="a2">
                         <dt>关于我们</dt>
                         
-                        <dd><a target="_blank" href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">企业概况</a></dd>
+                        <dd><a target="_blank" href="foreground/jsps/culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">企业概况</a></dd>
                         
-                        <dd><a target="_blank" href="culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603">项目优势</a></dd>
+                        <dd><a target="_blank" href="foreground/jsps/culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603">项目优势</a></dd>
                         
                         <dd><a target="_blank" href="BranchSearch.aspx.htm" tppabs="http://www.xydec.com.cn/BranchSearch.aspx">在建工地</a></dd>
                         

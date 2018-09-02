@@ -1,12 +1,10 @@
+<%@ page import="com.software.domain.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>品牌介绍-广东晴坤装饰集团股份有限公司</title>
-<meta name="keywords" content="品牌介绍" />
-<meta name="description" content="品牌介绍" />
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>东方名都销售中心-广东星艺装饰集团股份有限公司</title>
 
+<meta name="keywords" content="广州装修公司哪家好,广州哪家装修公司口碑好,广州装修公司有哪些,广州最好的装修公司" />
+<meta name="description" content="作为地产项目零距离对接目标群体的核心名片建筑-销售中心，被设立于小区建筑群的外围最为醒目的位置并由裙楼部分的十几个商铺连贯在一起构成，因为是十几个大小不一形式各样的商铺组合而成，因而在商铺之间原来间隔墙体拆除后，许多结构柱就凸现出来，并且因为地势的坡度问题整个空间内出现了多处高低落差，如何处理好这些结构留下的问题让十几个小空间有机的组合为协调的共同体是设计的关键。" />
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
@@ -17,38 +15,97 @@
 <script type="text/javascript" src="js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
 <script type="text/javascript" src="js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
 <script type="text/javascript" src="js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/10068539.js" tppabs="http://lead.soperson.com/20002178/js/10068539.js"></script>
+
+
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "hm.js-bc4d0695158d3e46228dd96a3b56fee4"/*tpa=https://hm.baidu.com/hm.js?bc4d0695158d3e46228dd96a3b56fee4*/;
+  hm.src = "https://hm.baidu.com/hm.js?bc4d0695158d3e46228dd96a3b56fee4";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
 
 
-</head>
+
+
+
+    <script type="text/javascript" charset="utf-8">
+
+        window.onload = function () {
+
+            var gg = $(".box.hh1 div.fl").offset().top;
+
+            var foot = document.getElementById("tabBox1-bd").scrollHeight - 20;
+
+            $(window).scroll(function () {
+
+                var wh = $(window).scrollTop();
+
+                if (wh > gg) {
+
+                    $(".box.hh1 div.fl").addClass("cc");
+
+                } else {
+
+                    $(".box.hh1 div.fl").removeClass("cc");
+
+                }
+
+                if (wh > foot) {
+
+                    $(".box.hh1 div.fl").removeClass("cc");
+
+                    $(".box.hh1 div.fl").addClass("hf");
+
+                } else {
+
+                    $(".box.hh1 div.fl").removeClass("hf");
+
+                }
+
+            })
+
+        }
+
+    </script>
+
+<title>
+
+
+
+</title></head>
+
 <body>
+
     
+
 <div class="header">
+
     
+
     <div class="Menu">
+
         <div class="wrap clearfix">
+
             <div class="logo">
-                <a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
-                    <img alt="" class="lazyload" data-original="upload/1702/img/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
+
+                <a href="Default.aspx">
+
+                    <img alt="" class="lazyload" data-original="img/201702230818558672167.png" src="img/201702230818558672167.png" /></a>
+
             </div>
 
-            <div class="Nav">
+
+           <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
+                    <li><a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
                     
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                         <div class="Drop_Down">
+                       <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
@@ -60,7 +117,7 @@ var _hmt = _hmt || [];
                                         <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
-                                      <li>
+                                    <li>
                                         <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
@@ -155,50 +212,78 @@ var _hmt = _hmt || [];
                     </li>
                     
                 </ul>
+
             </div>
+
             
+
         </div>
+
     </div>
+
+
 
 </div>
 
-    
+
+<%
+    String path = request.getContextPath();
+
+    Products product = (Products) request.getAttribute("product");
+    BuildingArea buildingArea = (BuildingArea) request.getAttribute("buildingArea");
+    BuildingStyle buildingStyle = (BuildingStyle) request.getAttribute("buildingStyle");
+    BuildingType buildingType = (BuildingType) request.getAttribute("buildingType");
+    ProductStage productStage = (ProductStage) request.getAttribute("productStage");
+%>
     <div class="article">
-        <div class="sub-banner">
-            <div class="bd">
-                <ul>
-                    
-                    <li style="background-image: url(img/201704071409483809340.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
-                    
-                    <li style="background-image: url(img/201704071410248183840.jpg);"><a target="_blank"  tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
-                    
-                    <li style="background-image: url(img/201704071410434744838.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
-                    
-                    <li style="background-image: url(img/201704071527517088423.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
-                    
-                </ul>
-            </div>
-            <div class="hd">
-                <ul></ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            jQuery(".sub-banner").slide({ titCell: ".hd ul", mainCell: ".bd ul", effect: "fold", autoPlay: true, autoPage: true, trigger: "click" });
-        </script>
         <div class="sub-tit">
             <div class="wrap clearfix">
                 <div class="fl">
-                    <a href="index.jsp">首页</a>
+                    <a href="../../index.jsp">首页</a>
                     <font>&gt;</font>
-                    <a href="culture_group_overview.jsp">走进晴坤</a>
+                    <a href="product_center.jsp">产品中心</a>
                     <font>&gt;</font>
-                    <span style="color: red;">品牌介绍</span>
+                    <span style="color:red;"><%=product.getProduct_name()%></span>
                 </div>
             </div>
         </div>
-   <%String brand_introduction = (String)request.getAttribute("brand_introduction"); %>
-    <%=brand_introduction%>
-    
+        <div class="Boutique-details">
+            <div class="wrap">
+                <div class="Boutique_01 clearfix">
+                    <div class="fl">
+                        <div class="a1">
+							<font size="5"><%=product.getProduct_name()%></font></br>
+							<font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简介：</font>
+							<font size="3"><%=product.getProduct_info()%></font>
+                        </div>
+                        <div class="a2">
+                            <p class="clearfix">
+                                <span>建筑风格</span>
+                                <font><%=buildingStyle.getProduct_build_style()%></font>
+                                <span>产品户型</span>
+                                <font><%=buildingType.getProduct_house_type()%></font>
+                            </p>
+                            <p class="clearfix">
+                                <span>在建阶段</span>
+                                <font><%=productStage.getProduct_stage()%></font>
+                                <span>建筑面积</span>
+                                <font><%=buildingArea.getProduct_area()%></font>
+                            </p>
+                            <p class="clearfix">
+                                <span>产品城市</span>
+                                <font><%=product.getProduct_city()%></font>
+                                <span>发布时间</span>
+                                <font><%=product.getProduct_publish_time()%></font>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fr">
+						<img width="275px" height="235px" src="img/<%=product.getProduct_picture_path()%>">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <div class="roll-nav">
     <ul>
         <li class="a1">
@@ -208,22 +293,18 @@ var _hmt = _hmt || [];
             </div>
             <div class="_sig">
                 <span>
-                    <img alt="" src="img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
+                    <img alt="" src="img/201612229413.jpg" />
                 </span>
             </div>
         </li>
         <li class="a4">
             <div class="_box">
-                <a href="javascript:scroll(0,0)"><i></i></a>
-                <span><a href="javascript:scroll(0,0)">返回顶部</a></span>
+                <i></i>
+                <span>返回顶部</span>
             </div>
         </li>
-        
     </ul>
 </div>
-
-    
-
 <div class="footer">
     <div class="foot_1">
         <div class="wrap">
@@ -240,7 +321,7 @@ var _hmt = _hmt || [];
                         
                         <dd><a target="_blank" href="culture_project_advantages.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603">项目优势</a></dd>
                         
-                        <dd><a target="_blank" href="BranchSearch.aspx.htm" tppabs="http://www.xydec.com.cn/BranchSearch.aspx">在线工地</a></dd>
+                        <dd><a target="_blank" href="BranchSearch.aspx.htm" tppabs="http://www.xydec.com.cn/BranchSearch.aspx">在建工地</a></dd>
                         
                     </dl>
                     <dl class="a3">
@@ -317,24 +398,9 @@ var _hmt = _hmt || [];
                     (c)Copyright 2018 河北晴坤装饰集团有限公司 版权所有  
                 </p>
             </div>
-            
         </div>
     </div>
 </div>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "hm.js-bc4d0695158d3e46228dd96a3b56fee4"/*tpa=https://hm.baidu.com/hm.js?bc4d0695158d3e46228dd96a3b56fee4*/;
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-    
-    <script type="text/javascript">
-        setNav(1);
-    </script>
-    
 </body>
 </html>
 

@@ -3,9 +3,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>营销活动-广东晴坤装饰集团股份有限公司</title>
+    
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://jqueryui.com/resources/demos/css/style.css">
+  <script>
+  $(function() {
+    $( "#dialog" ).dialog();
+  });
+  </script>
+  
+  
 <meta name="keywords" content="晴坤装饰,晴坤装饰官网,装饰公司,装修公司,家庭装修,室内装修,豪华装修,别墅装修,装修效果图,装修设计,晴坤,装修,装饰,整装,家装,工装" />
 <meta name="description" content="晴坤装饰创办于1991年，中国装饰装修行业十大品牌！全国400+分支机构，50000+专业人员，27年专注大中型住宅、酒店、办公空间等装修设计与施工服务。爱家专线：4009617001！晴坤装饰每年为30000+家庭提供定制设计、环保施工、材料配送等高品质装修服务，深受百万家庭信赖！" />
 
+    
 <link rel="shortcut icon" href="images/favicon.ico">
 <link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
@@ -131,18 +144,18 @@ var _hmt = _hmt || [];
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
+                <a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
                     <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
 
             <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
+                    <li><a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
                     
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                        <div class="Drop_Down">
+                       <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
@@ -275,11 +288,11 @@ var _hmt = _hmt || [];
 			<div class="sub-tit">
 				<div class="wrap clearfix">
 					<div class="fl">
-						<a href="index.jsp">首页</a>
+						<a href="../../index.jsp">首页</a>
 						<font>&gt;</font>
 						<a href="news_center.jsp">营销活动</a>
 						<font>&gt;</font>
-						<span style="color: red;">最新公告</span>
+						<span style="color: red;">企业新闻</span>
 					</div>
 				</div>
 			</div>
@@ -304,70 +317,62 @@ var _hmt = _hmt || [];
             <div class="wrap">
                 <ul>
                     
-                        <li class="clearfix">
+                    <li class="clearfix">
+                        <div class="fl">
+                            <a target="_blank"  tppabs="http://www.xydec.com.cn/MarketingDel.aspx?m_id=4190">
+                                <img alt="" src="img/201807021100211417171.jpg" tppabs="http://www.xydec.com.cn/upload/1807/img/201807021100211417171.jpg" /></a>
+                        </div>
                         <div class="fr">
                             
-                            <h4><a target="_blank"  tppabs="http://www.xydec.com.cn/MarketingDel.aspx?m_id=4239">
-                                                               【贵阳市】热烈庆祝中国银行＆晴坤装饰首届0首付月供家装节--...                               
+                            <h4><a target="_blank"  tppabs="http://www.xydec.com.cn/MarketingDel.aspx?m_id=4190">
+                                首届0首付月供家装节
+                                
                             </a></h4>
-                            <h5><a target="_blank"  tppabs="http://www.xydec.com.cn/MarketingDel.aspx?m_id=4239">
-                            	热烈庆祝！中国银行＆晴坤装饰 首届0首付月供家装节特惠活动圆满成功！ 7月21日，早晨的阳光还很柔和，中银大厦三楼的活动现场就已经热闹起来。中国银行和晴坤装饰的工作人员全部就位，静候活动的开始。虽然离活动开始还有一段时间，但已有客...</a></h5>
+                            <h5><a target="_blank"  tppabs="http://www.xydec.com.cn/MarketingDel.aspx?m_id=4190">活动主题：首届0首付月供家装节 
+
+
+	
+ 
+
+
+	活动时间：2018年6月30日-2018年7月29日</a></h5>
                             <p>
                                 <span>
-                                    <span><font>活动时间：</font>2018/07/21至2018/07/22</span>
+                                    <span><font>活动时间：</font>2018/06/30至2018/07/29</span>
                                     <span><font>活动状态：</font>已结束</span>
                                 </span>
                             </p>
-                            <h6 class="clearfix">
-                                <div id="win" style="display:none; position:fixed; left:300px; top:100px; width:780px; height:456px; border:1px solid #aaa; background-color:#eee">
+                        <h6 class="clearfix">
+                            	<div id="win" style="display:none; position:fixed; left:300px; top:100px; width:780px; height:456px; border:1px solid #aaa; background-color:#eee">
 	                            <h2 style="position:absolute; left:0; top:0; width:100%; height:30px; line-height:30px; font-size:16px; margin:0; text-indent:10px; color:#666; background-color:#ddd">这是弹窗标题</h2>
 	                            <span style="position:absolute; right:4px; top:4px; color:#aaa; cursor:pointer" onclick="win.style.display='none';">×</span>
 	                            <div style="margin-top:30px; padding:10px; color:#888">这里是弹窗的文字内容</div>
                             </div>
                                 <button onclick="win.style.display='block';"><font size="4">查看详情</font></button>
+                                
                             </h6>
                             
                         </div>
                     </li>
                     
+                   
+                    
                 </ul>
             </div>
         </div>
         <div class="Paging">
-            <form name="form1" method="post" action="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" id="form1" style="width: 1200px;">
+            <form name="form1" method="post" action="fi000002..htm" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101?__VIEWSTATE=/wEPDwUKMTY5NzQ3Njc2OQ9kFgICAw9kFgICAQ8PFgYeCFBhZ2VTaXplAgoeEEN1cnJlbnRQYWdlSW5kZXgCAR4LUmVjb3JkY291bnQCCGRkZKUiJntSCbyD4Jwyz5S0BVTVcmAd4BltA4yPY9KZZHJk&__VIEWSTATEGENERATOR=BC293E00" id="form1" style="width: 1200px;">
 <div>
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY5NzQ3Njc2OQ9kFgICAw9kFgICAQ8PFgYeCFBhZ2VTaXplAgoeEEN1cnJlbnRQYWdlSW5kZXgCAR4LUmVjb3JkY291bnQC0QJkZGSpdBnpZQWlqzgPNqZ778ga2Cc19hda64mpbTfr8HHaqQ==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY5NzQ3Njc2OQ9kFgICAw9kFgICAQ8PFgYeCFBhZ2VTaXplAgoeEEN1cnJlbnRQYWdlSW5kZXgCAR4LUmVjb3JkY291bnQCCGRkZKUiJntSCbyD4Jwyz5S0BVTVcmAd4BltA4yPY9KZZHJk" />
 </div>
 
-<script language="Javascript"><!--
-function ANP_goToPage(boxEl){if(boxEl!=null){var pi;if(boxEl.tagName=="SELECT"){pi=boxEl.options[boxEl.selectedIndex].value;}else{pi=boxEl.value;}location.href="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page="+pi+"";}}
-function ANP_checkInput(bid,mv){var el=document.getElementById(bid);var r=new RegExp("^\\s*(\\d+)\\s*$");
-if(r.test(el.value)){if(RegExp.$1<1||RegExp.$1>mv){alert("页索引超出范围！");el.focus();el.select();return false;}
-return true;}alert("页索引不是有效的数值！");el.focus();el.select();return false;}
-function ANP_keydown(e,btnId){
-var kcode;
-if(window.event){kcode=e.keyCode;}
-else if(e.which){kcode=e.which;}
-var validKey=(kcode==8||kcode==46||kcode==37||kcode==39||(kcode>=48&&kcode<=57)||(kcode>=96&&kcode<=105));
-if(!validKey){
-if(kcode==13) document.getElementById(btnId).click();
-if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
-}
-}
---></script>
 <div>
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BC293E00" />
 </div>
                 
 <!-- AspNetPager V7.0.2 for VS2005 & VS2008  Copyright:2003-2007 Webdiyer (www.webdiyer.com) -->
-<div id="AspNetPager1" class="paginator" style="width:100%;text-align:right;">
-<div align="right" style="width:75%;float:left;">
-	<a disabled="disabled" style="margin-right:5px;">上一页</a><span class="cpb" style="margin-right:5px;">1</span><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2" style="margin-right:5px;">2</a><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=3  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=3'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=3" style="margin-right:5px;">3</a><span style="margin-right:5px;"><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=4  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=4'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=4">...</a></span><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2" style="margin-right:5px;">下一页</a>&nbsp;&nbsp;到   <input type="text" value="1" class="text" name="AspNetPager1_input" id="AspNetPager1_input" onkeydown="ANP_keydown(event,&#39;AspNetPager1_btn&#39;);" style="width:30px;width:40px" /> 页 <input type="Button" name="AspNetPager1" id="AspNetPager1_btn" value="确定" class="submit" onclick="if(ANP_checkInput(&#39;AspNetPager1_input&#39;,34)){ANP_goToPage(document.getElementById(&#39;AspNetPager1_input&#39;));}" />
-</div><div class="pagecount" style="float:left;width:25%;">
-	共 34 页
-</div>
-</div>
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
 <!-- AspNetPager V7.0.2 for VS2005 & VS2008 End -->
 
 
@@ -432,7 +437,7 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
         <li class="a4">
             <div class="_box">
                 <a href="javascript:scroll(0,0)"><i></i></a>
-                <span><a href="javascript:scroll(0,0)">返回顶部</a></span>
+                <a href="javascript:scroll(0,0)"><span>返回顶部</span></a>
             </div>
         </li>
         
@@ -539,8 +544,20 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
         </div>
     </div>
 </div>
-
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "hm.js-bc4d0695158d3e46228dd96a3b56fee4"/*tpa=https://hm.baidu.com/hm.js?bc4d0695158d3e46228dd96a3b56fee4*/;
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    
+    <script type="text/javascript">
+        setNav(2);
+    </script>
+    
 </body>
 </html>
-
 
