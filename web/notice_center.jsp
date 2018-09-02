@@ -539,20 +539,7 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
         </div>
     </div>
 </div>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "hm.js-bc4d0695158d3e46228dd96a3b56fee4"/*tpa=https://hm.baidu.com/hm.js?bc4d0695158d3e46228dd96a3b56fee4*/;
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-    
-    <script type="text/javascript">
-        setNav(2);
-    </script>
-    
+
 </body>
 </html>
 

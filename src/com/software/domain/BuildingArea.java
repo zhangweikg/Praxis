@@ -1,14 +1,14 @@
 package com.software.domain;
 
-public class building_area { //建筑面积
+public class BuildingArea { //建筑面积
     private String product_area; //建筑面积
     private int product_area_id; //建筑面积id
 
-    public building_area(){
+    public BuildingArea(){
         super();
     }
 
-    public building_area(String product_area, int product_area_id){
+    public BuildingArea(String product_area, int product_area_id){
         this.product_area = product_area;
         this.product_area_id = product_area_id;
     }

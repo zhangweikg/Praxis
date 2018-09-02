@@ -1,14 +1,14 @@
 package com.software.domain;
 
-public class building_style { //建筑风格
+public class BuildingStyle { //建筑风格
     private String product_build_style; //建筑风格
     private int product_build_style_id; //建筑风格id
 
-    public building_style(){
+    public BuildingStyle(){
         super();
     }
 
-    public building_style(String product_build_style, int product_build_style_id){
+    public BuildingStyle(String product_build_style, int product_build_style_id){
         this.product_build_style = product_build_style;
         this.product_build_style_id = product_build_style_id;
     }

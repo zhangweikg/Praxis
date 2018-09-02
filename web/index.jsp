@@ -85,7 +85,9 @@ var _hmt = _hmt || [];
 </title></head>
 <body>
 
-    
+<%
+    String path = request.getContextPath();
+%>
 <div class="header">
     
     <div class="Menu">
@@ -148,7 +150,7 @@ var _hmt = _hmt || [];
                     
                     
                     <li>
-                        <a href="product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">产品中心</a>
+                        <a href="<%=path%>/ProductsServlet?action=showAllProducts" tppabs="http://www.xydec.com.cn/CaseList.aspx">产品中心</a>
                         
                         
                     </li>

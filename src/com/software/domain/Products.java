@@ -1,6 +1,6 @@
 package com.software.domain;
 
-public class products { //产品
+public class Products { //产品
     private String product_name; //产品名称
     private String product_publish_time; //发布时间
     private String product_info; //产品简介
@@ -12,12 +12,12 @@ public class products { //产品
     private int product_stage_id; //产品所在阶段id
     private String product_city; //所在城市
 
-    public products(){
+    public Products(){
         super();
     }
 
 //    有产品id
-    public products(String product_name, String product_publish_time, String product_info, String product_picture_path, int product_build_style_id, int product_area_id, int product_house_type_id, int product_id, int product_stage_id, String product_city) {
+    public Products(String product_name, String product_publish_time, String product_info, String product_picture_path, int product_build_style_id, int product_area_id, int product_house_type_id, int product_id, int product_stage_id, String product_city) {
         this.product_name = product_name;
         this.product_publish_time = product_publish_time;
         this.product_info = product_info;
@@ -31,7 +31,7 @@ public class products { //产品
     }
 
 //    没产品id
-    public products(String product_name, String product_publish_time, String product_info, String product_picture_path, int product_build_style_id, int product_area_id, int product_house_type_id, int product_stage_id, String product_city) {
+    public Products(String product_name, String product_publish_time, String product_info, String product_picture_path, int product_build_style_id, int product_area_id, int product_house_type_id, int product_stage_id, String product_city) {
         this.product_name = product_name;
         this.product_publish_time = product_publish_time;
         this.product_info = product_info;

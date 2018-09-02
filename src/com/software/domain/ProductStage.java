@@ -1,14 +1,14 @@
 package com.software.domain;
 
-public class product_stage { //产品所在阶段
+public class ProductStage { //产品所在阶段
     private String product_stage; //产品所在阶段
     private int product_stage_id; //阶段id
 
-    public product_stage(){
+    public ProductStage(){
         super();
     }
 
-    public product_stage(String product_stage, int product_stage_id){
+    public ProductStage(String product_stage, int product_stage_id){
         this.product_stage = product_stage;
         this.product_stage_id = product_stage_id;
     }
@@ -28,4 +28,5 @@ public class product_stage { //产品所在阶段
     public void setProduct_stage_id(int product_stage_id) {
         this.product_stage_id = product_stage_id;
     }
+
 }
