@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>装修选星艺 分期到建行</title>
+<style>
+body, th, td, button, input, select, textarea{ font-family: "微软雅黑",Arial,Helvetica,sans-serif,Microsoft Yahei; margin:0; padding:0;}
+a:focus{outline:none;}
+a{color:#FFFFFF; text-decoration:none;}
+input:focus {outline:none;}
+.w1150{ width:1150px; margin:0 auto;}
+.w1064{ width:1064px; margin:0 auto;}
+.fr{ float:right}
+.fl{ float:left}
+.clearfix:after{content:"020";display:block;height:0;clear:both;}
+.clearfix{zoom:1;}
+select{width:120px;height:30px;border:0px solid #ccc;font-size:14px;line-height:30px;background:transparent;}
+
+/*头部样式*/
+.header{ width:100%; min-width:1150px; min-height:658px; margin:0 auto; background: url("20170421103955_0178-1.jpg")/*tpa=http://www.xydec.com.cn/subject/topbj.jpg*/ no-repeat top center;}
+.toper{ width:1150px; display:inline-block; left:50%; margin-left:-580px; position:relative; padding-top:70px;}
+.toper img{ width:100%; height: auto;}
+.text{ width:657px; height:459px; padding-top:14px; margin:0 auto;}
+/*头部样式*/
+
+/*表单窗*/
+.modal-layer{position:absolute;width:100%;height:100%;left:0;top:0;display:none;z-index:999999;}
+.modal-layer-bg{position:fixed;width:100%;height:100%;left:0;top:0;background-color:rgba(0,0,0,0.5);}
+.Calculation-close{position:absolute;top:20px;right:20px;font-size:20px;cursor:pointer;}
+.orderform{ width:375px; height:514px; background:#FFFFFF; margin-right:70px; position:fixed; left:50%; top:50%; margin-left:-187.5px; margin-top:-257px;}
+.formtitle{ font-size:20px; font-family:"Microsoft YaHei UI"; color:#221815; display:block; height:100px; text-align:center; line-height:100px;}
+.formitem{ width:328px; height:40px; border:1px solid #999999; margin:0 auto; margin-bottom:20px;}
+.formitem select{ outline:none;}
+.formitem input{ width: 240px; height:40px; border:none; line-height:40px; float:right; text-align: left;}
+.formitem label{ font-size:14px; line-height:40px; text-align:center; padding-left:18px;}
+.tj{ margin:0 auto; text-align:center; padding-top:10px;}
+.tj input{ width:330px; height:50px; background:#6394E3; border:none; font-size:16px; letter-spacing:2px; color:#FFFFFF;}
+.tj input:hover{ background: #993300; cursor:pointer;}
+.input_focus{ color:#666666; line-height:38px;}
+.lp-input-tips{font-size:16px;color:red;text-align:center;height:30px;line-height:30px;width:100%;display:inline-block;}
+.submit-btn{width:404px;height:57px;background:url("20170421104012_5803-1.jpg")/*tpa=http://www.xydec.com.cn/xysn/tj.png*/ no-repeat 50% 0;margin:0 auto;display:block;}
+/*表单窗*/
+
+/*5大优势样式*/
+.youshi{ width:100%;  min-width:1150px; background:#FFFFFF; min-height:700px;}
+.youshi_bt{ text-align:center; margin:120px 0px 100px 0px;}
+.youshi .icon{ text-align:center; }
+/*5大优势样式*/
+/*分期样式*/
+.fenqi{ width:100%; min-width:1150px; background:#F5F5F5; min-height:605px;}
+.item01{ width:524px; height:210px; border:1px solid #d8000f; text-align:center;}
+.item01 img{ vertical-align:middle;}
+.item01 span{ display:inline-block; overflow:hidden; vertical-align:middle; height:100%; width:0;}
+.item02,.item04{ width:532px; height:299px;}
+.item03{ width:526px; height:387px;}
+.item03,.item04{ margin-top:6px;}
+.item02,.item03,.item04{ overflow:hidden; cursor:pointer;}
+.pimg{transition:all 1.5s ease-in-out 0.1s;}
+.pimg:hover{transform:scale(1.25);}
+#tips{ text-align:right; font-size:16px; color:#000; height:50px;}
+/*分期样式*/
+/*快速办理样式*/
+.banli{ width:100%; min-width:1150px; background:#FFFFFF; min-height:704px;}
+.banli_bt{ text-align:center; margin:100px 0;}
+.banli .icon{ text-align:center; margin-bottom:94px;}
+.banli .demo{ text-align:center;}
+/*快速办理样式*/
+/*问答样式*/
+.wenda{ width:100%; min-width:1150px; background:#F5F5F5; min-height:740px;}
+.wenda_bt{ text-align:center; padding:94px 0 60px 0;}
+.wenda_txt_box{ width:90%; height:270px; margin:0 auto;}
+.wenda ul{ margin:0; padding:0;}
+.wenda li{ list-style:none; height:150px;}
+.wenda li:nth-child(odd){float:left;}
+.wenda li:nth-child(even){float:right;}
+.wenda li div{ width:450px; height:100%; color:#727171;}
+.wenda li span{ font-size:24px; color:#000000; display:block; padding-left:33px;}
+.wenda li p{ padding-left:33px;}
+.wenda i{ background:url("20170421104050_2678-1.jpg")/*tpa=http://www.xydec.com.cn/subject/img-6.png*/; width:26px; height:26px; display:block; float:left; margin-top:5px;}
+.wd01 i{ background-position:0 0;}
+.wd02 i{ background-position:26px 0;}
+.wd03 i{ background-position:0 26px;}
+.wd04 i{ background-position:26px 26px;}
+.rate{ text-align:center; margin-top:50px;}
+/*问答样式*/
+/*6大优惠样式*/
+.youhui{ width:100%; min-width:1150px; background:#FFFFFF; min-height:1280px;}
+.youhui_bt{ text-align:center; margin:111px 0 64px 0;}
+.youhui_txt{ font-size:24px; color:#000000; text-align:center; margin-bottom:78px;}
+.youhui_list{ background:#999999; height:944px;}
+.youhui_list ul{ margin:0; padding:0;}
+.youhui_list li{ list-style:none; width:383.33px; height:236px; float:left; display:inline;}
+.notes{ font-size:16px; text-align:right; color:#da251c;}
+/*6大优惠样式*/
+/*建行合作样式*/
+.hezuo{ width:100%; min-width:1150px; min-height:1040px; background:#ffffff;}
+.hezuo_bt{ text-align:center; padding:94px 0 60px 0;}
+.img_list{ background:#003300; height:auto;}
+.img_list ul{ margin:0; padding:0;}
+.img_list li{ float:left; display:inline; margin-right:2px; margin-bottom:2px;}
+.img_list li:nth-of-type(3n){margin-right:0px;}
+
+.container-a4{width:1150px;max-width:1150px;margin:0 auto;}
+.caption-style-4{list-style-type:none;margin:0px;padding:0px;}
+.caption-style-4 li{float:left;padding:0px;position:relative;overflow:hidden;}
+.caption-style-4 li:hover .caption{opacity:1;}
+.caption-style-4 li:hover img{opacity:1;transform:scale(1.15,1.15);-webkit-transform:scale(1.15,1.15);-moz-transform:scale(1.15,1.15);-ms-transform:scale(1.15,1.15);-o-transform:scale(1.15,1.15);}
+.caption-style-4 img{margin:0px;padding:0px;float:left;z-index:4;}
+.caption-style-4 .caption{cursor:pointer;position:absolute;opacity:0;-webkit-transition:all 0.45s ease-in-out;-moz-transition:all 0.45s ease-in-out;-o-transition:all 0.45s ease-in-out;-ms-transition:all 0.45s ease-in-out;transition:all 0.45s ease-in-out;}
+.caption-style-4 img{-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;}
+.caption-style-4 .blur{background-color:rgba(0,0,0,0.65);height:236px;width:380px;z-index:5;position:absolute;}
+.caption-style-4 .caption-text h1{text-transform:uppercase;font-size:24px;}
+.caption-style-4 .caption-text{z-index:10;color:#fff;position:absolute;width:380px;height:236px;text-align:center;top:80px;}
+/*建行合作样式*/
+
+/*留下电话-底部样式*/
+.lianxi{ width:100%; min-width:1150px; min-height:514px; height:auto; background:#f5f5f5;}
+.foot_left{ width:100%; height:514px; background: url("20170421104106_8616-1.jpg")/*tpa=http://www.xydec.com.cn/subject/qcode.png*/ no-repeat center center/* 0 100px*/; /*float:left; */position:relative;}
+.kf{ width:220px; height:50px; background:#6C6C6C; text-align:center; position:absolute; bottom:33px; left:40%/* 20%*/; color:#FFFFFF; font-size:25.8px; line-height:50px;}
+.kf:hover{ background:#6394e3; cursor:pointer;}
+.foot_right{ width:50%; position:relative; float:right;}
+.footform{ width:375px; height:514px; position:absolute; right:0;}
+.footform form{ margin-top:100px;}
+.f258 input{ font-size:25.8px; background:#6C6C6C;}
+.f258 input:hover{ background:#6394e3;}
+/*留下电话-底部样式*/
+
+/*算一算样式*/
+.jisuan{height:750px;width:100%;background:#f5f5f5;position:relative;}
+.jisuan-title{font-size:38px;color:#d7000f;text-align:center;padding-top:50px;}
+.jisuan-btn{width:306px;height:58px;border-radius:5px;background:#6394e3;text-align:center;position:absolute;bottom:50px;left:50%;margin-left:-153px;font-size:25px;line-height:58px;color:#FFFFFF;letter-spacing:2px;cursor:pointer;}
+.jisuan input{border:none;background:none;}
+.pc-lp-calculator-s{width:824px;height:504px;background:url("20170421104130_5178-1.jpg")/*tpa=http://www.xydec.com.cn/xysn/pc-lp-calculator.png*/ no-repeat 0 0;position:absolute;top:50%;left:50%;margin-left:-412px;margin-top:-252px;}
+.pc-lp-calculator-amount{padding:24px 0 0 178px;color:#fff;height:6.5rem;}
+.pc-lp-calculator-amount span{font-size:30px;vertical-align:top;padding-top:30px;display:inline-block}
+.pc-lp-calculator-amount b{font-weight:normal;font-size:80px}
+.pc-lp-calculator-items{padding:44px 0 0 70px;position:relative}
+.pc-lp-cc-btn{margin:570px auto;display:block}
+.lp-price-left-btn{display:block;background:url("20170421104205_0335-1.jpg")/*tpa=http://www.xydec.com.cn/xysn/pc-lp-sys-btn.png*/ no-repeat 0 0;width:83px;height:151px;position:absolute;right:80px;bottom:40px}
+.lp-price-left{color:#5c5c5c;font-size:16px}
+.lp-price-left-top span{display:block;float:left;margin-left:15px;width:80px;padding-top:6px;height:40px;}
+.lp-price-left-top p.lp-prices{width:450px;display:block;float:left;height:25px;border-bottom:1px solid #c1c1c1;}
+.lp-price-left-top .lp-prices input{height:25px;background:none;font-size:20px;width:100%;}
+.lp-price-left-top .lp-prices input::-ms-input-placeholder{text-align:center;}
+.lp-price-left-top .lp-prices input::-webkit-input-placeholder{text-align:center;}
+.lp-price-left-top .lp-price-time a{display:block;float:left;width:60px;height:30px;line-height:30px;text-align:center;background:#f2f4f8;color:#0f395c;font-size:16px;border:1px solid #c6c6c6;margin-left:10px;cursor:pointer;text-decoration:none;}
+.lp-price-left-top .lp-price-time .curr{background:#6394e3;border:1px solid #4cabeb;color:#fff}
+.lpPrice{width:440px;border-bottom:1px solid #7e7e7e;display:block;padding:30px 0 10px;text-align:center;color:#9d9d9d;font-size:40px;background:#f2f2f2}
+.lp-price-left-top{margin-bottom:40px}
+.lp-price-right{position:absolute;right:60px;top:-80px;width:310px;height:310px;border-radius:50%;border:2px solid #f1f1f3;overflow:hidden}
+.lp-price-right-top{height:210px;text-align:center;color:#5c5c5c}
+.lp-price-right-top p{padding:70px 0 0 0;font-size:16px}
+.lp-price-right-top h2{font-size:50px;color:#ffa200;margin-top:20px}
+.lp-price-right-bottom{text-align:center;background:#f3f7f8;height:110px;color:#5c5c5c;font-size:16px;line-height:110px}
+.lp-price-right-bottom i{font-style:normal;color:#05356b;font-weight:bold}
+.lp-price-jt{position:absolute;right:380px;top:150px}
+
+/*算一算样式*/
+</style>
+<link rel="stylesheet" type="text/css" href="layer-2.css" tppabs="http://www.xydec.com.cn/css/layer.css">
+<link rel="stylesheet" type="text/css" href="20170421104212_5335.jpg.css" tppabs="http://www.xydec.com.cn/css/fonts/iconfont.css">
+<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.xydec.com.cn/css/style.css"/>
+<script type="text/javascript" src="jquery.js" tppabs="http://www.xydec.com.cn/js/jquery.js"></script>
+<script type="text/javascript" src="form_js.js" tppabs="http://www.xydec.com.cn/js/form_js.js"></script>
+<script type="text/javascript" src="ajax.js" tppabs="http://www.xydec.com.cn/js/ajax.js"></script>
+<script type="text/javascript" src="js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
+<script type="text/javascript" src="slick.min.js" tppabs="http://www.xydec.com.cn/js/slick.min.js"></script>
+<script type="text/javascript" src="layer.js" tppabs="http://www.xydec.com.cn/js/layer/layer.js"></script>
+<script type="text/javascript" src="jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/jquery.lazyload.min.js"></script>
+
+<script type="text/javascript">
+$("img.lazyload").lazyload({
+	effect: "fadeIn",
+	threshold: 180,
+	skip_invisible: false,
+	container: $("body")
+});
+</script>
+<script src="20170421104303_0178-1.jpg" tppabs="http://www.xydec.com.cn/js/jquery-3.1.1.min.js"></script>
+<!-- jq验证 -->
+<script src="20170421104849_2835-1.jpg" tppabs="http://www.xydec.com.cn/js/jquery.validate.min.js"></script>
+<script src="20170421105011_9710-1.jpg" tppabs="http://www.xydec.com.cn/js/query.js"></script>
+
+</head>
+
+<body>
+<div class="header">
+	<div class="toper">
+		<div class="text"><img src="Detail-1.aspx-code=0606&id=4232" tppabs="http://www.xydec.com.cn/subject/text.png"></div>			
+	</div>
+</div>
+<div class="jisuan">
+	<div class="jisuan-title">算一算家装分期每月还款，更放心！</div>
+	<div class="pc-lp-calculator-s">			
+		<div class="pc-lp-calculator-amount">
+			<span>每月还款：</span><b id="pcLpCalculator"></b>	
+		</div>
+		<div class="pc-lp-calculator-items clearfix">
+		  <div class="lp-price-left clearfix">
+				<div class="lp-price-left-top clearfix">
+					<span>贷款金额</span>
+					<p class="lp-prices">
+						<input type="text" placeholder=" 自填 (最高100万，各地略有差异)"  id="lpPrice"/>
+					</p>
+				</div>
+				<div class="lp-price-left-top clearfix">
+					<span>贷款利率</span>
+					<p class="lp-prices">
+						<input type="text" placeholder="默认：0.0031(各地略有差异)"  id="rate" readonly="true"/>
+					</p>
+				</div>
+				<div class="lp-price-left-top clearfix">
+					<span>贷款期限</span>
+					<p class="lp-price-time">
+						<a href="javascript:void(0);" class="curr clearfix" data-month=12>12期</a><a href="javascript:void(0);"  data-month=24>24期</a><a href="javascript:void(0);" data-month=36>36期</a><a href="javascript:void(0);" data-month=48>48期</a></p>
+				</div>
+			  <a href="javascript:void(0);" class="lp-price-left-btn" id="btn-profit"></a></div>
+		</div>
+	</div>
+	<div class="jisuan-btn">我要贷款</div>
+</div>
+<div class="youshi">
+	<div class="w1064">
+		<div class="youshi_bt"><img src="201807201447193284032-1.jpg" tppabs="http://www.xydec.com.cn/subject/text-1.png"></div>
+		<div class="icon"><img src="NewList-1.aspx-code=0606&page=" tppabs="http://www.xydec.com.cn/subject/icon.png"></div>
+	</div>
+</div>
+<div class="w1064" id="tips">注：额度和费率各地略有差异，详情咨询星艺及建行各网点。</div>
+<div class="fenqi">
+	<div class="w1064">		
+		<div class="item01 fl"><img src="NewList-1.aspx-code=0606&page=2" tppabs="http://www.xydec.com.cn/subject/text-2.png"><span></span></div>
+		<div class="item02 fr"><img class="pimg" src="NewList-1.aspx-code=0606&page=3" tppabs="http://www.xydec.com.cn/subject/img-2.png"></div>
+		<div class="item03 fl"><img class="pimg" src="NewList-1.aspx-code=0606&page=4" tppabs="http://www.xydec.com.cn/subject/img-3.png"></div>
+		<div class="item04 fr"><img class="pimg" src="YMDClass-1.js" tppabs="http://www.xydec.com.cn/subject/img-1.png"></div>
+	</div>
+</div>
+<div class="banli">
+	<div class="w1064">
+		<div class="banli_bt"><img src="Marketing-1.aspx" tppabs="http://www.xydec.com.cn/subject/text-4.png"></div>
+		<div class="icon"><img src="Marketing-1.aspx-type=new" tppabs="http://www.xydec.com.cn/subject/img-4.png"></div>
+		<div class="demo"><img src="Marketing-1.aspx-type=hot" tppabs="http://www.xydec.com.cn/subject/img-5.png"></div>
+	</div>
+</div>
+<div class="wenda">
+	<div class="w1064">
+		<div class="wenda_bt"><img src="MarketingDel-1.aspx-m_id=4239" tppabs="http://www.xydec.com.cn/subject/text-5.png"></div>
+		<div class="wenda_txt_box">
+			<ul>
+			<li><div class="wd01 fl"><i></i><span>家装分期是什么？</span><p>装修分期业务，是指客户因装修家庭住宅（包括自有房产、共同产权房产、配偶或直系亲属名下房产）向建行申请信用卡专项分期额度，用于满足住宅装修硬装、软装、家具、家电等相关消费需求，经建行审批同意，并现场勘查核实用途真实性后，分次支用完成分期交易的业务。</p></div></li>
+			<li><div class="wd02 fr"><i></i><span>装修分期额度怎么支用？</span><p>装修分期的额度将优先用于支付客户与星艺装饰签署的装修合同中需给付的合同金额，支付合同金额后还有剩余额度的，建行将额度发放至客户本人名下专用借记卡，由客户按与建行约定的用途进行消费。</p></div></li>
+			<li><div class="wd03 fl"><i></i><span>办理装修分期后怎么还款？</span><p>建行装修分期依托龙卡信用卡为载体，客户成功办理后每月应还的本金和手续费在客户每月的龙卡信用卡账单入账，客户按照账单列示的金额还款即可。</p></div></li>
+			<li><div class="wd04 fr"><i></i><span>办理建行装修分期后能否提前还款，提前还款剩余的手续费是否还要偿还？</span><p>客户已成功办理分期付款业务，如申请提前还款，须一次性支付剩余本金, 并按已入账分期期数承担相应手续费, 即建行不再收取申请人剩余未入账期数对应的手续费。</p></div></li>
+			</ul>			
+		</div>
+		<div class="rate"><img src="201807241512342023698-1.jpg" tppabs="http://www.xydec.com.cn/subject/img-7.png"></div>
+	</div>
+</div>
+<div class="hezuo">
+	<div class="w1150">
+		<div class="hezuo_bt"><img src="MarketingDel-1.aspx-m_id=4238" tppabs="http://www.xydec.com.cn/subject/text-7.png"></div>
+		<div class="img_list">
+			<div class="content">
+				<div class="container-a4">
+					<ul class="caption-style-4">
+					<li>
+						<img src="201807241453272643001-1.jpg" tppabs="http://www.xydec.com.cn/subject/img_r1_c1.jpg" alt="img27"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="MarketingDel-1.aspx-m_id=4234" tppabs="http://www.xydec.com.cn/subject/img_r1_c2.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="201807230948507954851-1.jpg" tppabs="http://www.xydec.com.cn/subject/img_r1_c3.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="MarketingDel-1.aspx-m_id=4225" tppabs="http://www.xydec.com.cn/subject/img_r2_c1.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="201807151111031515375-1.jpg" tppabs="http://www.xydec.com.cn/subject/img_r2_c2.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="MarketingDel-1.aspx-m_id=4200" tppabs="http://www.xydec.com.cn/subject/img_r2_c3.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="201807101146475335856-1.jpg" tppabs="http://www.xydec.com.cn/subject/img_r3_c1.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="MarketingDel-1.aspx-m_id=4199" tppabs="http://www.xydec.com.cn/subject/img_r3_c2.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="201807091040066734362-1.jpg" tppabs="http://www.xydec.com.cn/subject/img_r3_c3.jpg" alt="img17"/>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>星艺·建行合作精彩集锦</h1>
+								<p>点击查看更多</p>
+							</div>
+						</div>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="lianxi">
+	<div class="w1064">
+		<div class="foot_left"><div class="kf">扫描立即关注</div></div>
+	</div>
+</div>
+<!--右边浮动栏目-->
+<div class="roll-nav">
+    <ul>
+        <li class="a1">
+            <div class="_box">
+                <i></i>
+                <span>二维码</span>
+            </div>
+            <div class="_sig">
+                <span>
+                    <img alt="" src="201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/201612229413.jpg" />
+                </span>
+            </div>
+        </li>
+        <li class="a2 formclick">
+            <a class="_box" href="javascript::;" rel="nofollow">
+                <i></i>
+                <span>在线报名</span>
+            </a>
+        </li>
+        <li class="a3">
+            <a target="_blank" class="_box" href="javascript:if(confirm('http://wpa.qq.com/MarketingDel.aspx?m_id=4198  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/MarketingDel.aspx?m_id=4198'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2252243608&site=qq&menu=yes">
+                <i></i>
+                <span>在线咨询</span>
+            </a>
+        </li>
+        <li class="a4">
+            <div class="_box">
+                <i></i>
+                <span>返回顶部</span>
+            </div>
+        </li>
+        <li class="a5">
+            <div class="_box">
+                <i></i>
+                <span>返回首页</span>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--弹出表单窗-->
+<div class="modal-layer" id="order-layer">
+	<div class="modal-layer-bg"></div>
+	<div class="orderform" id="dingdan">
+		<span class="formtitle">填写资料</span>
+		<div class="Calculation-close"><i class="iconfont icon-guanbi"></i></div>
+		<form method="post" action="http://www.xydec.com.cn/user/usersave.asp" onSubmit="return fun();">
+		<input type="hidden" value="guest" name="action" />
+		<input type="hidden" value="建行电脑留言" name="msg"/>	
+		<input type="hidden" name="urlpath" id="urlpath"/>
+		<div class="formitem"><label>真实姓名</label><input type="text" name="uname" id="uname" class="input_focus" placeholder="请输入您的姓名"></div>
+		<div class="formitem"><label>手机号码</label><input type="text" name="mobile" id="mobile" class="input_focus" placeholder="请输入您的手机"></div>
+		<div class="formitem"><label>装修城市</label>
+			<select id="s_province" name="s_province"></select>
+			<select id="s_city" name="s_city" ></select>
+			<script src="201807111704022364427-1.jpg" tppabs="http://www.xydec.com.cn/js/area.js" type="text/javascript"></script>							
+			<script type="text/javascript">_init_area();</script>
+		</div>
+		<div class="formitem"><label>楼盘名称</label><input type="text" name="lp" id="lp" class="input_focus"  placeholder="装修楼盘名称"></div>
+		<div class="formitem" style="margin-bottom:0;"><label>建筑面积</label><input type="text" name="mj" id="mj" class="input_focus" placeholder="房屋面积" ></div>
+		<div class="clearfix lp-input-tips"></div>
+		<div class="tj"><input type="submit" value="立即提交" id="send" ></div>
+		</form>
+	</div>
+</div>
+<!--弹出表单窗-->
+<script type="text/javascript">
+function fun(){	
+	var urlval= window.location.href;
+	 $("#urlpath").val(urlval);
+    //建个函数在里面进行判断
+    var val=$("#uname").val();
+	if (val == '') {
+		$('.lp-input-tips').text('请输入您的名字');
+		$('#uname').focus();
+		return false;
+	};
+    var i = /^1\d{10}$/;
+    var ival=$("#mobile").val();
+    if (!i.test(ival)) {//不成立就false
+		$('.lp-input-tips').text('请输入您的手机号码');
+        $("#mobile").focus();
+        return false;
+    }
+    var rval=$("#s_province").val();
+    if (rval=='' || rval=='省份') {//不成立就false
+		$('.lp-input-tips').text('请选择省份');
+        $("#s_province").focus();
+        return false;
+    }
+	var tval=$("#s_city").val();
+    if (tval=='' || tval=='地级市') {//不成立就false
+		$('.lp-input-tips').text('请选择城市');
+        $("#s_city").focus();
+        return false;
+    }
+    var oval=$("#lp").val();
+    if (oval == '') {//不成立就false
+		$('.lp-input-tips').text('请输入楼盘地址');
+        $("#lp").focus();
+        return false;
+    }
+    var mval=$("#mj").val();
+	if ( mval == '') {//不成立就false
+		$('.lp-input-tips').text('请输入房屋面积');
+        $("#mj").focus();
+        return false;
+    }	
+}
+function l(t) {
+	var i = /(\d{3})\d{4}(\d{4})/;
+	t = t.replace(i, '$1****$2');
+	return t
+};
+</script>
+<script type="text/javascript">
+/**
+ * 贷款窗口弹出
+ */
+$(".jisuan-btn,.formclick").on('click', function(event) {
+   $(".modal-layer").show();
+});
+/**
+ * 贷款窗口关闭
+ */
+$("#order-layer").on('click', '.Calculation-close',function(event) {
+   $("#order-layer").hide();
+   $("#lpPrice").val("");
+   $("#pcLpCalculator").html("");
+   $('.lp-price-time a').eq(0).addClass('curr').siblings().removeClass('curr');
+});
+
+$(".lp-price-time").on('click', 'input', function(event) {
+	$(this).parent().find("input").removeClass('curr');
+	$(this).addClass('curr');
+});
+
+///*input 输入框*/
+$(function(){ 
+	$('.input_focus').bind({ 
+	focus:function(){ 
+		if (this.value == this.defaultValue){ 
+			this.value=""; 
+		} 
+	}, 
+	blur:function(){ 
+		if (this.value == ""){ 
+			this.value = this.defaultValue; 
+		} 
+	} 
+	}); 
+}) 
+//返回首页
+$('http://www.xydec.com.cn/.roll-nav .a5').click(function () {
+   window.location.href='index.htm'/*tpa=http://www.xydec.com.cn/*/;
+});
+</script>
+<script type="text/javascript" src="layer-2.js" tppabs="http://www.xydec.com.cn/js/layer.js"></script>
+<script type="text/javascript" src="MarketingDel-1.aspx-m_id=4197" tppabs="http://www.xydec.com.cn/js/calculator.js"></script>
+<script type="text/javascript" src="201807061452158855961-1.jpg" tppabs="http://www.xydec.com.cn/js/calculation.js"></script>
+<script type="text/javascript" src="MarketingDel-1.aspx-m_id=4196" tppabs="http://www.xydec.com.cn/js/mh_dialog.js"></script>
+</body>
+</html>
