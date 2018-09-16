@@ -1,4 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+ <%  
+String path = request.getContextPath();  
+String basePath = path+"/foreground/";  
+%> 
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,15 +11,15 @@
 <meta name="description" content="晴坤装饰创办于1991年，中国装饰装修行业十大品牌！全国400+分支机构，50000+专业人员，27年专注大中型住宅、酒店、办公空间等装修设计与施工服务。爱家专线：4009617001！晴坤装饰每年为30000+家庭提供定制设计、环保施工、材料配送等高品质装修服务，深受百万家庭信赖！" />
 
 <link rel="shortcut icon" href="images/favicon.ico">
-<link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js" tppabs="http://www.xydec.com.cn/js/js/jquery.SuperSlide.2.1.1.js"></script>
-<script type="text/javascript" src="js/slick.min.js" tppabs="http://www.xydec.com.cn/js/js/slick.min.js"></script>
-<script type="text/javascript" src="js/layer.js" tppabs="http://www.xydec.com.cn/js/layer/js/layer.js"></script>
-<script type="text/javascript" src="js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
-<script type="text/javascript" src="js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
-<script type="text/javascript" src="js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
+<link href="../css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="../js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js" tppabs="http://www.xydec.com.cn/js/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="../js/slick.min.js" tppabs="http://www.xydec.com.cn/js/js/slick.min.js"></script>
+<script type="text/javascript" src="../js/layer.js" tppabs="http://www.xydec.com.cn/js/layer/js/layer.js"></script>
+<script type="text/javascript" src="../js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
+<script type="text/javascript" src="../js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
+<script type="text/javascript" src="../js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -27,7 +31,7 @@ var _hmt = _hmt || [];
 </script>
 
 
-    <script type="text/javascript" src="js/YMDClass.js" tppabs="http://www.xydec.com.cn/js/js/YMDClass.js"></script>
+    <script type="text/javascript" src="../js/YMDClass.js" tppabs="http://www.xydec.com.cn/js/js/YMDClass.js"></script>
     <script type="text/javascript">
         $(function () {
             var type = '';
@@ -132,7 +136,7 @@ var _hmt = _hmt || [];
         <div class="wrap clearfix">
             <div class="logo">
                 <a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
-                    <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
+                    <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="../img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
 
             <div class="Nav">
@@ -142,20 +146,20 @@ var _hmt = _hmt || [];
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                        <div class="Drop_Down">
+                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
-                                    <li>
-                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
+                                      <li>
+                                        <a href="<%=path%>/PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
                                     
@@ -167,18 +171,18 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
+                        <a href="<%=basePath%>jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101" >企业新闻</a>
+                                        <a href="<%=basePath%>jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101" >企业新闻</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="notice_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" >最新公告</a>
+                                        <a href="<%=basePath%>jsps/notice_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" >最新公告</a>
                                     </li>
                                     
                                 </ul>
@@ -189,13 +193,13 @@ var _hmt = _hmt || [];
                     
                     
                     <li>
-                        <a href="product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">产品中心</a>
+                        <a href="<%=basePath%>jsps/product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">产品中心</a>
                         
                         
                     </li>
                     
                    <li>
-                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                        <a href="<%=path%>/PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -204,15 +208,15 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx" >在建工地</a>
+                                        <a href="<%=basePath%>jsps/building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx" >在建工地</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -222,24 +226,24 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="<%=path%>/PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
+                                        <a href="<%=basePath%>jsps/service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
                                     </li>
                                     
                                     
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
@@ -262,7 +266,7 @@ var _hmt = _hmt || [];
             <div class="bd">
                 <ul>
                     
-                    <li style="background-image: url(img/201802071702436308751.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/xydai.aspx"></a></li>
+                    <li style="background-image: url(../img/201802071702436308751.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/xydai.aspx"></a></li>
                             
                 </ul>
             </div>
@@ -361,12 +365,12 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
 </div>
                 
 <!-- AspNetPager V7.0.2 for VS2005 & VS2008  Copyright:2003-2007 Webdiyer (www.webdiyer.com) -->
-<div id="AspNetPager1" class="paginator" style="width:100%;text-align:right;">
+<!-- <div id="AspNetPager1" class="paginator" style="width:100%;text-align:right;">
 <div align="right" style="width:75%;float:left;">
 	<a disabled="disabled" style="margin-right:5px;">上一页</a><span class="cpb" style="margin-right:5px;">1</span><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2" style="margin-right:5px;">2</a><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=3  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=3'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=3" style="margin-right:5px;">3</a><span style="margin-right:5px;"><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=4  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=4'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=4">...</a></span><a href="javascript:if(confirm('http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2  \n\n???ļ??޷??? Teleport Ultra ????, ??Ϊ ??????, ????????????, ????Ŀ????ֹͣ??  \n\n?????ڷ??????ϴ??????'))window.location='http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2'" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102&page=2" style="margin-right:5px;">下一页</a>&nbsp;&nbsp;到   <input type="text" value="1" class="text" name="AspNetPager1_input" id="AspNetPager1_input" onkeydown="ANP_keydown(event,&#39;AspNetPager1_btn&#39;);" style="width:30px;width:40px" /> 页 <input type="Button" name="AspNetPager1" id="AspNetPager1_btn" value="确定" class="submit" onclick="if(ANP_checkInput(&#39;AspNetPager1_input&#39;,34)){ANP_goToPage(document.getElementById(&#39;AspNetPager1_input&#39;));}" />
 </div><div class="pagecount" style="float:left;width:25%;">
 	共 34 页
-</div>
+</div> -->
 </div>
 <!-- AspNetPager V7.0.2 for VS2005 & VS2008 End -->
 

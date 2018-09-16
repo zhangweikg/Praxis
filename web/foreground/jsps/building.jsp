@@ -4,16 +4,20 @@
 <meta name="keywords" content="晴坤装饰,晴坤装饰官网,装饰公司,装修公司,家庭装修,室内装修,豪华装修,别墅装修,装修效果图,装修设计,晴坤,装修,装饰,整装,家装,工装" />
 <meta name="description" content="晴坤装饰创办于1991年，中国装饰装修行业十大品牌！全国400+分支机构，50000+专业人员，27年专注大中型住宅、酒店、办公空间等装修设计与施工服务。爱家专线：4009617001！晴坤装饰每年为30000+家庭提供定制设计、环保施工、材料配送等高品质装修服务，深受百万家庭信赖！" />
 
+<%
+	String path = request.getContextPath();
+	String basePath = path + "/foreground/";
+ %>
 <link rel="shortcut icon" href="images/favicon.ico">
-<link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js" tppabs="http://www.xydec.com.cn/js/js/jquery.SuperSlide.2.1.1.js"></script>
-<script type="text/javascript" src="js/slick.min.js" tppabs="http://www.xydec.com.cn/js/js/slick.min.js"></script>
-<script type="text/javascript" src="js/layer.js" tppabs="http://www.xydec.com.cn/js/layer/js/layer.js"></script>
-<script type="text/javascript" src="js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
-<script type="text/javascript" src="js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
-<script type="text/javascript" src="js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
+<link href="<%=basePath %>css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="<%=basePath %>js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/jquery.SuperSlide.2.1.1.js" tppabs="http://www.xydec.com.cn/js/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/slick.min.js" tppabs="http://www.xydec.com.cn/js/js/slick.min.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/layer.js" tppabs="http://www.xydec.com.cn/js/layer/js/layer.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
+<script type="text/javascript" src="<%=basePath %>js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -271,7 +275,7 @@ var _hmt = _hmt || [];
         <div class="wrap clearfix">
             <div class="logo">
                 <a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
-                    <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
+                    <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="../img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
 
             <div class="Nav">
@@ -286,15 +290,15 @@ var _hmt = _hmt || [];
                                 <ul>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
                                     
@@ -334,7 +338,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                    <li>
-                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                        <a href="<%=path %>/PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -343,7 +347,7 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
@@ -351,7 +355,7 @@ var _hmt = _hmt || [];
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -361,7 +365,7 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="<%=path %>/PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -374,11 +378,11 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="<%=path %>/PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
@@ -401,13 +405,13 @@ var _hmt = _hmt || [];
             <div class="bd">
                 <ul style="position: relative; width: 1366px; height: 400px;">
                     
-                    <li style="background-image: url(&quot;img/201704071409483809340.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
+                    <li style="background-image: url(&quot;../img/201704071409483809340.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
                     
-                    <li style="background-image: url(&quot;img/201704071410248183840.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: list-item;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
+                    <li style="background-image: url(&quot;../img/201704071410248183840.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: list-item;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
                     
-                    <li style="background-image: url(&quot;img/201704071410434744838.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
+                    <li style="background-image: url(&quot;../img/201704071410434744838.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
                     
-                    <li style="background-image: url(&quot;img/201704071527517088423.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
+                    <li style="background-image: url(&quot;../img/201704071527517088423.jpg&quot;); position: absolute; width: 1366px; left: 0px; top: 0px; display: none;"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
                     
                 </ul>
             </div>
@@ -434,7 +438,7 @@ var _hmt = _hmt || [];
                 <ul>
                     <li class="clearfix">
                         <span>
-                            <img alt="" class="lazyload" data-original="images/icon_img/15.png" src="img/icon_15.png" tppabs="http://www.xydec.com.cn/images/icon_img/15.png" />阶段</span>
+                            <img alt="" class="lazyload" data-original="images/icon_img/15.png" src="../img/icon_15.png" tppabs="http://www.xydec.com.cn/images/icon_img/15.png" />阶段</span>
                         <a id="a_stage" href="javascript:;" onclick="selectCase('stage',-1)" class="fsx">全部</a>
                         
                         <a id="a_stage_1701" onclick="selectCase('stage',1701)" href="javascript:;">开工大吉</a>
@@ -458,7 +462,7 @@ var _hmt = _hmt || [];
                     </li>
                     <li class="clearfix">
                         <span>
-                            <img alt="" class="lazyload" data-original="images/icon_img/16.png" src="img/icon_16.png" tppabs="http://www.xydec.com.cn/images/icon_img/16.png" />面积</span>
+                            <img alt="" class="lazyload" data-original="images/icon_img/16.png" src="../img/icon_16.png" tppabs="http://www.xydec.com.cn/images/icon_img/16.png" />面积</span>
                         <a id="a_size" onclick="selectCase('size',-1)" class="fsx">全部</a>
                         
                         <a id="a_size_1601" onclick="selectCase('size',1601)" href="javascript:;">100平米以下</a>
@@ -474,7 +478,7 @@ var _hmt = _hmt || [];
                     
                     <li class="clearfix">
                         <span>
-                            <img alt="" class="lazyload" data-original="images/icon_img/17.png" src="img/icon_17.png" tppabs="http://www.xydec.com.cn/images/icon_img/17.png" />户型</span>
+                            <img alt="" class="lazyload" data-original="images/icon_img/17.png" src="../img/icon_17.png" tppabs="http://www.xydec.com.cn/images/icon_img/17.png" />户型</span>
                         <a id="a_layout" onclick="selectCase('layout',-1)" class="fsx">全部</a>
                         
                         <a id="a_layout_1401" onclick="selectCase('layout',1401)" href="javascript:;">二居</a>
@@ -510,7 +514,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1704/img/201704111450102797152.jpg" src="img/201704111450102797152.jpg" tppabs="http://www.xydec.com.cn/upload/1704/img/201704111450102797152.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1704/img/201704111450102797152.jpg" src="../img/201704111450102797152.jpg" tppabs="http://www.xydec.com.cn/upload/1704/img/201704111450102797152.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>金旺大厦4楼工艺馆</h4>
@@ -538,7 +542,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703221046135702090.jpg" src="img/201703221046135702090.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703221046135702090.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703221046135702090.jpg" src="../img/201703221046135702090.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703221046135702090.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>泊爵广悦轩别墅</h4>
@@ -570,7 +574,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703231058230542574.jpg" src="img/201703231058230542574.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703231058230542574.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703231058230542574.jpg" src="../img/201703231058230542574.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703231058230542574.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>科城山庄A8栋</h4>
@@ -600,7 +604,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703191112519327836.jpg" src="img/201703191112519327836.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703191112519327836.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703191112519327836.jpg" src="../img/201703191112519327836.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703191112519327836.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>双汇国际</h4>
@@ -628,7 +632,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703211646468674913.jpg" src="img/201703211646468674913.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703211646468674913.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703211646468674913.jpg" src="../img/201703211646468674913.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703211646468674913.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>长青御府</h4>
@@ -658,7 +662,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703182112314486079.jpg" src="img/201703182112314486079.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703182112314486079.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703182112314486079.jpg" src="../img/201703182112314486079.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703182112314486079.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>国际公馆</h4>
@@ -686,7 +690,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703201403262734705.jpg" src="img/201703201403262734705.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703201403262734705.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703201403262734705.jpg" src="../img/201703201403262734705.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703201403262734705.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>鼎盛大观1#609郑总</h4>
@@ -714,7 +718,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1703/img/201703201404393201122.jpg" src="img/201703201404393201122.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703201404393201122.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1703/img/201703201404393201122.jpg" src="../img/201703201404393201122.jpg" tppabs="http://www.xydec.com.cn/upload/1703/img/201703201404393201122.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>世纪名郡</h4>
@@ -742,7 +746,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1705/img/201705101624215684517.jpg" src="img/201705101624215684517.jpg" tppabs="http://www.xydec.com.cn/upload/1705/img/201705101624215684517.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1705/img/201705101624215684517.jpg" src="../img/201705101624215684517.jpg" tppabs="http://www.xydec.com.cn/upload/1705/img/201705101624215684517.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>加州阳光徐女士雅居</h4>
@@ -772,7 +776,7 @@ var _hmt = _hmt || [];
                         
                         <li class="clearfix">
                             <div class="fl">
-                                <img alt="" class="lazyload" data-original="upload/1706/img/201706121611380694100.jpg" src="img/201706121611380694100.jpg" tppabs="http://www.xydec.com.cn/upload/1706/img/201706121611380694100.jpg" />
+                                <img alt="" class="lazyload" data-original="upload/1706/img/201706121611380694100.jpg" src="../img/201706121611380694100.jpg" tppabs="http://www.xydec.com.cn/upload/1706/img/201706121611380694100.jpg" />
                             </div>
                             <div class="fr">
                                 <h4>依云华府</h4>
@@ -803,13 +807,13 @@ var _hmt = _hmt || [];
                 <div class="B-s2">
                     <div class="Other">
 						<a target="_blank">
-                            <img src="img/201708081047283536103.jpg" />
+                            <img src="../img/201708081047283536103.jpg" />
                         </a>
 						<a target="_blank">
-                            <img src="img/201803011647262677136.jpg" />
+                            <img src="../img/201803011647262677136.jpg" />
                         </a>
 						<a target="_blank">
-                            <img src="img/201803011647262677136.jpg" />
+                            <img src="../img/201803011647262677136.jpg" />
                         </a>
                     </div>
                 </div>
@@ -907,7 +911,7 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
             </div>
             <div class="_sig">
                 <span>
-                    <img alt="" src="img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
+                    <img alt="" src="../img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
                 </span>
             </div>
         </li>
@@ -958,7 +962,7 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
                             <h4>
                                 
                                 
-                                <img class="lazyload" alt="关注集团微信公众号" data-original="upload/1612/img/201612229413.jpg" src="img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
+                                <img class="lazyload" alt="关注集团微信公众号" data-original="upload/1612/img/201612229413.jpg" src="../img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
                                 
                             </h4>
                             <p>关注集团微信公众号</p>
@@ -967,7 +971,7 @@ if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
                             <h4>
                                 
                                 
-                                <img class="lazyload" alt="关注手机端官网" data-original="upload/1712/img/201712181059593756989.jpg" src="img/201712181059593756989.jpg" tppabs="http://www.xydec.com.cn/upload/1712/img/201712181059593756989.jpg" />
+                                <img class="lazyload" alt="关注手机端官网" data-original="upload/1712/img/201712181059593756989.jpg" src="../img/201712181059593756989.jpg" tppabs="http://www.xydec.com.cn/upload/1712/img/201712181059593756989.jpg" />
                                 
                             </h4>
                             <p>关注手机端官网</p>

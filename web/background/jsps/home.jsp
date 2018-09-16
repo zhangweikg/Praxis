@@ -2,18 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="css/style.css"/>
-        	<link rel="stylesheet" href="assets/css/ace.min.css" />
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-        <link href="assets/css/codemirror.css" rel="stylesheet">
+		<link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/style.css"/>
+        	<link rel="stylesheet" href="../assets/css/ace.min.css" />
+        <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+        <link href="../assets/css/codemirror.css" rel="stylesheet">
 		 
-		<script src="assets/js/ace-extra.min.js"></script>
+		<script src="../assets/js/ace-extra.min.js"></script>
 		 
-		<script src="assets/js/jquery.min.js"></script>        
+		<script src="../assets/js/jquery.min.js"></script>        
 		 
-           	<script src="assets/dist/echarts.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>            
+           	<script src="../assets/dist/echarts.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>            
        <title></title>
        </head>		
 <body>
@@ -30,15 +30,15 @@
   <div class="home_btn">
      <div>
      <a href="product-add.jsp"  title="添加商品" class="btn  btn-info btn-sm no-radius">
-     <i class="bigger-200"><img src="images/icon-addp.png" /></i>
+     <i class="bigger-200"><img src="../images/icon-addp.png" /></i>
      <h5 class="margin-top">添加商品</h5>
      </a>
      <a href="product-category-add.jsp"  title="产品分类" class="btn  btn-primary btn-sm no-radius">
-     <i class="bigger-200"><img src="images/icon-cpgl.png" /></i>
+     <i class="bigger-200"><img src="../images/icon-cpgl.png" /></i>
      <h5 class="margin-top">产品分类</h5>
      </a>
      <a href="admin_info.jsp"  title="个人信息" class="btn  btn-success btn-sm no-radius">
-     <i class="bigger-200"><img src="images/icon-grxx.png" /></i>
+     <i class="bigger-200"><img src="../images/icon-grxx.png" /></i>
      <h5 class="margin-top">个人信息</h5>
      </a>
     <!-- <a href="Systems.jsp"  title="系统设置" class="btn  btn-info btn-sm no-radius">
@@ -50,11 +50,11 @@
      <h5 class="margin-top">商品订单</h5>
      </a>-->
      <a href="product-add.jsp"  title="添加广告" class="btn  btn-pink btn-sm no-radius">
-     <i class="bigger-200"><img src="images/icon-ad.png" /></i>
+     <i class="bigger-200"><img src="../images/icon-ad.png" /></i>
      <h5 class="margin-top">添加产品</h5>
      </a>
       <a href="article_add.jsp"  title="添加文章" class="btn  btn-info btn-sm no-radius">
-     <i class="bigger-200"><img src="images/icon-addwz.png" /></i>
+     <i class="bigger-200"><img src="../images/icon-addwz.png" /></i>
      <h5 class="margin-top">添加文章</h5>
      </a>
      </div>

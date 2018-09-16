@@ -208,7 +208,7 @@ function link_operating(name,title){
 				</a>
 				<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
 				 <li><!--  <a href="javascript:void(0" name="Systems.jsp" title="系统设置" class="iframeurl"><i class="icon-cog"></i>网站设置</a>  --></li>
-				 <li><a href="javascript:void(0)" name="admin_info.jsp" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
+				 <li><a href="javascript:void(0)" name="jsps/admin_info.jsp" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
 				 <li class="divider"></li>
 				 <li><a href="javascript:ovid(0)" id="Exit_system"><i class="icon-off"></i>退出</a></li>
 				</ul>
@@ -243,29 +243,29 @@ function link_operating(name,title){
 					</div> 
 					<div id="menu_style" class="menu_style">
 					<ul class="nav nav-list" id="nav_list">
-				     <li class="home"><a href="javascript:void(0)" name="home.jsp" class="iframeurl" title=""><i class="icon-home"></i><span class="menu-text"> 系统首页 </span></a></li>
+				     <li class="home"><a href="javascript:void(0)" name="jsps/home.jsp" class="iframeurl" title=""><i class="icon-home"></i><span class="menu-text"> 系统首页 </span></a></li>
                      <li><a href="#" class="dropdown-toggle"><i class="icon-desktop"></i><span class="menu-text"> 产品管理 </span><b class="arrow icon-angle-down"></b></a>
 					   <ul class="submenu">
-                         <li class="home"><a  href="ProductServlet?action=findAllProducts" name="home.jsp" title="产品类表" class="iframeurl"><i class="icon-double-angle-right"></i>产品类表</a></li>
-						 <li class="home"><a href="javascript:void(0)" name="product-category-add.jsp" title="分类管理"  class="iframeurl"><i class="icon-double-angle-right"></i>分类管理</a></li>
+                         <li class="home"><a  href="javascript:void(0)" name="jsps/Products_List.jsp" title="产品类表" class="iframeurl"><i class="icon-double-angle-right"></i>产品类表</a></li>
+						 <li class="home"><a href="javascript:void(0)" name="jsps/product-category-add.jsp" title="分类管理"  class="iframeurl"><i class="icon-double-angle-right"></i>分类管理</a></li>
 						</ul>
 					</li>
 					<li>
 					<a href="#" class="dropdown-toggle"><i class="icon-picture "></i><span class="menu-text"> 营销活动 </span><b class="arrow icon-angle-down"></b></a>
 						<ul class="submenu">
-						<li class="home"><a href="javascript:void(0)" name="Sort_news.jsp" title="新闻管理"  class="iframeurl"><i class="icon-double-angle-right"></i>新闻管理</a></li>
-						<li class="home"><a href="javascript:void(0)" name="Sort_ads.jsp" title="公告管理"  class="iframeurl"><i class="icon-double-angle-right"></i>公告管理</a></li>
+						<li class="home"><a href="javascript:void(0)" name="jsps/Sort_news.jsp" title="新闻管理"  class="iframeurl"><i class="icon-double-angle-right"></i>新闻管理</a></li>
+						<li class="home"><a href="javascript:void(0)" name="jsps/Sort_ads.jsp" title="公告管理"  class="iframeurl"><i class="icon-double-angle-right"></i>公告管理</a></li>
 							</ul>
 						</li>
                   
 						<li><a href="#" class="dropdown-toggle"><i class="icon-comments-alt"></i><span class="menu-text"> 消息管理 </span><b class="arrow icon-angle-down"></b></a>
 							<ul class="submenu">
-								<li class="home"><a href="javascript:void(0)" name="Guestbook.jsp" title="留言列表" class="iframeurl"><i class="icon-double-angle-right"></i>留言列表</a></li>
+								<li class="home"><a href="javascript:void(0)" name="jsps/Guestbook.jsp" title="留言列表" class="iframeurl"><i class="icon-double-angle-right"></i>留言列表</a></li>
 							</ul>
 						</li>
 						<li><a href="#" class="dropdown-toggle"><i class="icon-bookmark"></i><span class="menu-text"> 文章管理 </span><b class="arrow icon-angle-down"></b></a>
 							<ul class="submenu">
-								<li class="home"><a href="javascript:void(0)" name="article_list.jsp" title="文章列表" class="iframeurl"><i class="icon-double-angle-right"></i>文章列表</a></li>
+								<li class="home"><a href="javascript:void(0)" name="jsps/article_list.jsp" title="文章列表" class="iframeurl"><i class="icon-double-angle-right"></i>文章列表</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -304,7 +304,7 @@ function link_operating(name,title){
 						</ul>
 					</div>
                     
-                 <iframe id="iframe" style="border:0; width:100%; background-color:#FFF;"name="iframe" frameborder="0" src="home.jsp">  </iframe>
+                 <iframe id="iframe" style="border:0; width:100%; background-color:#FFF;"name="iframe" frameborder="0" src="jsps/home.jsp">  </iframe>
 				 
 
 <!-- /.page-content -->

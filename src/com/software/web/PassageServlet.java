@@ -67,8 +67,9 @@ public class PassageServlet extends HttpServlet {
 ////		out.print("456");
 //		System.out.println("上边" );
 //		response.sendRedirect(request.getContextPath()+"/culture_group_overview.jsp");
-		request.getRequestDispatcher("/culture_group_overview.jsp").forward(request, response);
-//		request.getRequestDispatcher("/goods/ordermain.jsp").forward(request, response);;
+		request.getRequestDispatcher("foreground/jsps/culture_group_overview.jsp").forward(request, response);
+//		request.getRequestDispatcher("/foreground/jsps/goods/ordermain.jsp").forward(request, response);;
+		
 	}
 	
 	/**
@@ -80,7 +81,7 @@ public class PassageServlet extends HttpServlet {
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		String brand_introduction = passageService.find_culture_brand_introduction();
 		request.setAttribute("brand_introduction",brand_introduction );
-		request.getRequestDispatcher("/culture_brand_introduction.jsp").forward(request, response);
+		request.getRequestDispatcher("/foreground/jsps/culture_brand_introduction.jsp").forward(request, response);
 	}
 	
 	/**
@@ -92,7 +93,7 @@ public class PassageServlet extends HttpServlet {
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		String project_advantages= passageService.find_culture_project_advantages();
 		request.setAttribute("project_advantages",project_advantages);
-		request.getRequestDispatcher("/culture_project_advantages.jsp").forward(request, response);
+		request.getRequestDispatcher("/foreground/jsps/culture_project_advantages.jsp").forward(request, response);
 	}
 	
 	/**
@@ -104,7 +105,7 @@ public class PassageServlet extends HttpServlet {
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		String material_overview= passageService.find_material_overview();
 		request.setAttribute("material_overview",material_overview);
-		request.getRequestDispatcher("/material_overview.jsp").forward(request, response);
+		request.getRequestDispatcher("/foreground/jsps/material_overview.jsp").forward(request, response);
 	}
 	
 	/**
@@ -116,7 +117,7 @@ public class PassageServlet extends HttpServlet {
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		String process_patent= passageService.find_process_patent();
 		request.setAttribute("process_patent",process_patent);
-		request.getRequestDispatcher("/process_patent.jsp").forward(request, response);
+		request.getRequestDispatcher("/foreground/jsps/process_patent.jsp").forward(request, response);
 	}
 	
 	/**
@@ -128,7 +129,7 @@ public class PassageServlet extends HttpServlet {
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		String service_guarantee= passageService.find_service_guarantee();
 		request.setAttribute("service_guarantee",service_guarantee);
-		request.getRequestDispatcher("/service_guarantee.jsp").forward(request, response);
+		request.getRequestDispatcher("/foreground/jsps/service_guarantee.jsp").forward(request, response);
 	}
 	
 	/**
@@ -140,6 +141,6 @@ public class PassageServlet extends HttpServlet {
 		response.setHeader("content-type","text/html;charset=UTF-8");
 		String service_process= passageService.find_service_process();
 		request.setAttribute("service_process",service_process);
-		request.getRequestDispatcher("/service_process.jsp").forward(request, response);
+		request.getRequestDispatcher("/foreground/jsps/service_process.jsp").forward(request, response);
 	}
 }

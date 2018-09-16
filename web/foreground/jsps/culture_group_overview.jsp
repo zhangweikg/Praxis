@@ -1,22 +1,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+   <%  
+String path = request.getContextPath();  
+String basePath = path+"/foreground/";  
+%>  
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>企业概况-广东晴坤装饰集团股份有限公司</title>
 <meta name="keywords" content="晴坤装饰企业概况" />
 <meta name="description" content="晴坤装饰企业概况" />
-
+<base href="<%=request.getContextPath()%>">
 <link rel="shortcut icon" href="images/favicon.ico">
-<link href="css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js" tppabs="http://www.xydec.com.cn/js/js/jquery.SuperSlide.2.1.1.js"></script>
-<script type="text/javascript" src="js/slick.min.js" tppabs="http://www.xydec.com.cn/js/js/slick.min.js"></script>
-<script type="text/javascript" src="js/layer.js" tppabs="http://www.xydec.com.cn/js/layer/js/layer.js"></script>
-<script type="text/javascript" src="js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
-<script type="text/javascript" src="js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
-<script type="text/javascript" src="js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/10068539.js" tppabs="http://lead.soperson.com/20002178/js/10068539.js"></script>
+<link href="<%=basePath%>css/style.css" tppabs="http://www.xydec.com.cn/css/css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="<%=basePath%>js/jquery.js" tppabs="http://www.xydec.com.cn/js/js/jquery.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/jquery.lazyload.min.js" tppabs="http://www.xydec.com.cn/js/js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/jquery.SuperSlide.2.1.1.js" tppabs="http://www.xydec.com.cn/js/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/slick.min.js" tppabs="http://www.xydec.com.cn/js/js/slick.min.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/layer.js" tppabs="http://www.xydec.com.cn/js/layer/js/layer.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/form_js.js" tppabs="http://www.xydec.com.cn/js/js/form_js.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/js.js" tppabs="http://www.xydec.com.cn/js/js.js"></script>
+<script type="text/javascript" src="<%=basePath%>js/ajax.js" tppabs="http://www.xydec.com.cn/js/js/ajax.js"></script>
+<script type="text/javascript" charset="utf-8" src="<%=basePath%>js/10068539.js" tppabs="http://lead.soperson.com/20002178/js/10068539.js"></script>
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -26,40 +30,40 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-
+<base href="<%=request.getContextPath()%>">
 </head>
 <body>
-    
+ 
 <div class="header">
     
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
-                    <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
+                <a href="<%=request.getContextPath()%>/index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">
+                    <img alt="" class="lazyload" data-original="upload/1702/img/201702230818558672167.png" src="<%=basePath%>img/201702230818558672167.png" tppabs="http://www.xydec.com.cn/upload/1702/img/201702230818558672167.png" /></a>
             </div>
 
             <div class="Nav">
                 <ul class="clearfix">
-                    <li><a href="../../index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
+                    <li><a href="<%=path%>/index.jsp" tppabs="http://www.xydec.com.cn/Default.aspx">首页</a></li>
                     
                     <li>
                         <a href="culture_group_overview.jsp" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0601">走进晴坤</a>
                         
-                        <div class="Drop_Down">
+                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_group_overview" >企业概况</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_culture_group_overview" >企业概况</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_culture_brand_introduction"  >品牌介绍</a>
                                     </li>
                                     
                                       <li>
-                                        <a href="PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_culture_project_advantages"  >项目优势</a>
                                     </li>
                                     
                                     
@@ -71,18 +75,18 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
+                        <a href="<%=basePath%>jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?type=all">营销活动</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101" >企业新闻</a>
+                                        <a href="<%=basePath%>jsps/news_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0101" >企业新闻</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="notice_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" >最新公告</a>
+                                        <a href="<%=basePath%>jsps/notice_center.jsp" tppabs="http://www.xydec.com.cn/Marketing.aspx?kindcode=0102" >最新公告</a>
                                     </li>
                                     
                                 </ul>
@@ -93,13 +97,13 @@ var _hmt = _hmt || [];
                     
                     
                     <li>
-                        <a href="product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">产品中心</a>
+                        <a href="<%=basePath%>jsps/product_center.jsp" tppabs="http://www.xydec.com.cn/CaseList.aspx">产品中心</a>
                         
                         
                     </li>
                     
                    <li>
-                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
+                        <a href="<%=path%>/PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/SiteLive.aspx">品质工程</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
@@ -108,15 +112,15 @@ var _hmt = _hmt || [];
                                     
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_material_overview" tppabs="http://www.xydec.com.cn/EngineeringDetail.aspx?code=0402" >材料概述</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx" >在建工地</a>
+                                        <a href="<%=basePath%>jsps/building.jsp" tppabs="http://www.xydec.com.cn/SiteLive.aspx" >在建工地</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_process_patent" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0403" >工艺专利</a>
                                     </li>
                                     
                                 </ul>
@@ -126,24 +130,24 @@ var _hmt = _hmt || [];
                     </li>
                     
                     <li>
-                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
+                        <a href="<%=path%>/PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704">无忧服务</a>
                         
                         <div class="Drop_Down">
                             <div class="clearfix">
                                 <ul>
                                     
                                     <li>
-                                        <a href="service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
+                                        <a href="<%=basePath%>jsps/service_process.jsp" tppabs="http://www.xydec.com.cn/NewList.aspx?code=0704" >留言吧</a>
                                     </li>
                                     
                                     
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_service_guarantee" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0705" >服务流程</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
+                                        <a href="<%=path%>/PassageServlet?action=find_service_process" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0706" >服务保障</a>
                                     </li>
                                     
                                 </ul>
@@ -166,13 +170,13 @@ var _hmt = _hmt || [];
             <div class="bd">
                 <ul>
                     
-                    <li style="background-image: url(img/201704071409483809340.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
+                    <li style="background-image: url(<%=basePath%>img/201704071409483809340.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0603"></a></li>
                     
-                    <li style="background-image: url(img/201704071410248183840.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
+                    <li style="background-image: url(<%=basePath%>img/201704071410248183840.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0602"></a></li>
                     
-                    <li style="background-image: url(img/201704071410434744838.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
+                    <li style="background-image: url(<%=basePath%>img/201704071410434744838.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0608"></a></li>
                     
-                    <li style="background-image: url(img/201704071527517088423.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
+                    <li style="background-image: url(<%=basePath%>img/201704071527517088423.jpg);"><a target="_blank" tppabs="http://www.xydec.com.cn/Detail.aspx?code=0609"></a></li>
                     
                 </ul>
             </div>
@@ -186,7 +190,7 @@ var _hmt = _hmt || [];
         <div class="sub-tit">
             <div class="wrap clearfix">
                 <div class="fl">
-                    <a href="../../index.jsp">首页</a>
+                    <a href="<%=basePath%>index.jsp">首页</a>
                     <font>&gt;</font>
                     <a href="culture_group_overview.jsp">走进晴坤</a>
                     <font>&gt;</font>
@@ -207,7 +211,7 @@ var _hmt = _hmt || [];
             </div>
             <div class="_sig">
                 <span>
-                    <img alt="" src="img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
+                    <img alt="" src="<%=basePath%>img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
                 </span>
             </div>
         </li>
@@ -258,7 +262,7 @@ var _hmt = _hmt || [];
                             <h4>
                                 
                                 
-                                <img class="lazyload" alt="关注集团微信公众号" data-original="upload/1612/img/201612229413.jpg" src="img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
+                                <img class="lazyload" alt="关注集团微信公众号" data-original="upload/1612/img/201612229413.jpg" src="<%=basePath%>img/201612229413.jpg" tppabs="http://www.xydec.com.cn/upload/1612/img/201612229413.jpg" />
                                 
                             </h4>
                             <p>关注集团微信公众号</p>
@@ -267,7 +271,7 @@ var _hmt = _hmt || [];
                             <h4>
                                 
                                 
-                                <img class="lazyload" alt="关注手机端官网" data-original="upload/1712/img/201712181059593756989.jpg" src="img/201712181059593756989.jpg" tppabs="http://www.xydec.com.cn/upload/1712/img/201712181059593756989.jpg" />
+                                <img class="lazyload" alt="关注手机端官网" data-original="upload/1712/img/201712181059593756989.jpg" src="<%=basePath%>img/201712181059593756989.jpg" tppabs="http://www.xydec.com.cn/upload/1712/img/201712181059593756989.jpg" />
                                 
                             </h4>
                             <p>关注手机端官网</p>
